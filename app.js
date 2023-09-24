@@ -20,7 +20,7 @@ client.on('messageCreate', (msg) => {
         return;
     }
 
-        // if (msg.content == '.x'){
+        // if (msg.content == '.xx'){
     //     msg.channel.send('x');
     //     return;
     // }
