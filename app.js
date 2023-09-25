@@ -20,10 +20,20 @@ client.on('messageCreate', (msg) => {
         return;
     }
 
+    if (msg.content == '.cmdlist'){
+        msg.channel.send('Command list-nya ini masbree \n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
+        return;
+    }
+
         // if (msg.content == '.xx'){
     //     msg.channel.send('x');
     //     return;
     // }
+
+        if (msg.content == '.nanya'){
+        msg.channel.send('https://cdn.discordapp.com/attachments/812956551320043523/1078480580301295626/ea.jpg');
+        return;
+    }
 
         if (msg.content == '.hehe'){
         msg.channel.send('https://cdn.discordapp.com/attachments/723550821832458281/1155831078750261328/image.png');
@@ -150,10 +160,7 @@ client.on('messageCreate', (msg) => {
         return;
     }
 
-    if (msg.content == '.cmdlist'){
-        msg.channel.send('Command list-nya ini masbree \n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
-        return;
-    }
+
 });
 
 client.login(process.env.TOKEN);
