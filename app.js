@@ -25,6 +25,16 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
 
+    if (msg.content == '.bacot'){
+        msg.channel.send('https://cdn.discordapp.com/attachments/723550821832458281/1155816673220247552/image.png');
+        return;
+    }
+
+     if (msg.content == '.diam'){
+        msg.channel.send('https://cdn.discordapp.com/attachments/723550821832458281/1155816582774272020/image.png');
+        return;
+    }
+
     if (msg.content == '.nyimak'){
         msg.channel.send('https://tenor.com/view/entertainment-michael-jackson-wow-amazing-interesting-gif-14302319');
         return;
@@ -87,6 +97,11 @@ client.on('messageCreate', (msg) => {
 
     if (msg.content == '.pergi'){
         msg.channel.send('https://cdn.discordapp.com/attachments/812956551320043523/1064502374829408366/ea.png');
+        return;
+    }
+
+    if (msg.content == '.help'){
+        msg.channel.send('Command list-nya ini masbree \n.pergi \n.lucu \n.waduh \n.matilampu \n.malas \n.apasi');
         return;
     }
 });
