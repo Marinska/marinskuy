@@ -25,6 +25,11 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
 
+        if (msg.content == '.hehe'){
+        msg.channel.send('https://cdn.discordapp.com/attachments/723550821832458281/1155831078750261328/image.png');
+        return;
+    }
+
         if (msg.content == '.kntl' || msg.content == '.kontol'){
         msg.channel.send('https://cdn.discordapp.com/attachments/723550821832458281/1155829527306579988/image.png');
         return;
@@ -146,7 +151,7 @@ client.on('messageCreate', (msg) => {
     }
 
     if (msg.content == '.cmdlist'){
-        msg.channel.send('Command list-nya ini masbree \n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
+        msg.channel.send('Command list-nya ini masbree \n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
         return;
     }
 });
