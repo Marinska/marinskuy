@@ -25,7 +25,7 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
 
-    if (msg.content == '.bacot'){
+    if (msg.content == '.bacot' || msg.content == '.bct'){
         msg.channel.send('https://cdn.discordapp.com/attachments/723550821832458281/1155816673220247552/image.png');
         return;
     }
@@ -100,8 +100,23 @@ client.on('messageCreate', (msg) => {
         return;
     }
 
-    if (msg.content == '.help'){
-        msg.channel.send('Command list-nya ini masbree \n.pergi \n.lucu \n.waduh \n.matilampu \n.malas \n.apasi');
+    if (msg.content == '.cmdlist'){
+        msg.channel.send(`Command list-nya ini masbree 
+        \n.asik
+        \n.renjon / .renzon
+        \n.telat
+        \n.wleo
+        \n.maulima
+        \n.berak
+        \n.nyimak
+        \n.diam
+        \n.bacot / .bct
+        \n.pergi
+        \n.lucu
+        \n.waduh
+        \n.matilampu
+        \n.malas
+        \n.apasi / .apasih`);
         return;
     }
 });
