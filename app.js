@@ -126,15 +126,15 @@ client.on('messageCreate', (msg) => {
 
     if (msg.content == '.mw' || msg.content == '.mau' || msg.content == '.akujugamau'){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1092351228962418748/aku_jg_mw.jpg');
+        const Embed1 = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156898224032981042/384243735_6775583322481024_2683809069711358651_n.png?ex=6516a4ee&is=6515536e&hm=8c959cac1f3d6338a3b2e277a83f9e01b9ed1084cfd7144a2665e28596fe3cff&');
+        msg.channel.send( { embeds: [Embed1] })
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
     if (msg.content == '.admin'){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1107199791563276340/ea.jpg');
-        const Embed1 = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156898224032981042/384243735_6775583322481024_2683809069711358651_n.png?ex=6516a4ee&is=6515536e&hm=8c959cac1f3d6338a3b2e277a83f9e01b9ed1084cfd7144a2665e28596fe3cff&');
         msg.channel.send( { embeds: [Embed] })
-        msg.channel.send( { embeds: [Embed1] })
         return;
     }
 
