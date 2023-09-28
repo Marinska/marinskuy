@@ -28,7 +28,7 @@ client.on('messageCreate', (msg) => {
     // }
 
     if (msg.content == '.cmdlist'){
-        msg.channel.send('Command list-nya ini masbree \n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
+        msg.channel.send('Command list-nya ini masbree \n `.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
         msg.delete();
         return;
     }
@@ -38,6 +38,12 @@ client.on('messageCreate', (msg) => {
     //     msg.channel.send( { embeds: [Embed] })
     //     return;
     // }
+    
+        if (msg.content == '.gblk' || msg.content == '.goblok'){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156903654511607858/goblok.gif?ex=6516a9fd&is=6515587d&hm=168e7510ad6ce54fa020673fcf42c9916a2296f69d2e1fb5441653bf3ab19594&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
     
         if (msg.content == '.tuman'){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156901508714090536/image.png?ex=6516a7fd&is=6515567d&hm=1fb178820f601ea9429100a6a9c0b9886a3c29ec676c35e5580eb113f1b145c8&');
@@ -181,7 +187,7 @@ client.on('messageCreate', (msg) => {
     }
 
     if (msg.content == '.nyimak'){
-        const Embed = new EmbedBuilder().setImage('https://tenor.com/view/entertainment-michael-jackson-wow-amazing-interesting-gif-14302319');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156904964627628072/entertainment-michael-jackson.gif?ex=6516ab35&is=651559b5&hm=fd8e82422f58767aa469f02dbc3c3bbee8d1f7209862a1a523e8cb406b80a8dc&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
@@ -241,7 +247,7 @@ client.on('messageCreate', (msg) => {
     }
 
     if (msg.content == '.waduh'){
-        const Embed = new EmbedBuilder().setImage('https://tenor.com/view/waduh-kumala-waduh-meme-gif-16778593609164227100');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156904964162072617/waduh-kumala.gif?ex=6516ab35&is=651559b5&hm=34e10c5db875adfe8e1f48ef023e0868aee9019fdf8e29e8b6dc08d7b2934810&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
