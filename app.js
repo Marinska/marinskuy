@@ -125,8 +125,9 @@ client.on('messageCreate', (msg) => {
     }
 
         if (msg.content == '.kntl' || msg.content == '.kontol'){
-        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155829527306579988/image.png');
-        msg.channel.send( { embeds: [Embed] })
+        // const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155829527306579988/image.png');
+        // msg.channel.send( { embeds: [Embed] })
+        msg.channel.send('Maaf stickernya prohibited')
         return;
     }  
 
@@ -223,8 +224,9 @@ client.on('messageCreate', (msg) => {
     }
 
     if (msg.content == '.renjon' || msg.content == '.renzon'){
-        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1155511986029858958/image.png');
-        msg.channel.send( { embeds: [Embed] })
+        // const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1155511986029858958/image.png');
+        // msg.channel.send( { embeds: [Embed] })
+        msg.channel.send('Maaf stickernya prohibited, biar saya wakilinaja\nRENJON ANJ')
         return;
     }
 
