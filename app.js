@@ -28,7 +28,7 @@ client.on('messageCreate', (msg) => {
     // }
 
     if (msg.content == '.cmdlist'){
-        msg.channel.send('Command list-nya ini masbree \n `.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
+        msg.channel.send('Command list-nya ini masbree \n `.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
         msg.delete();
         return;
     }
@@ -38,6 +38,12 @@ client.on('messageCreate', (msg) => {
     //     msg.channel.send( { embeds: [Embed] })
     //     return;
     // }
+    
+        if (msg.content == '.babi'){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1142061343474720768/1160227740570615878/image.png?ex=6533e549&is=65217049&hm=6fe34453297b551fc26125481598aa7350920452a9739f800058fa4f3a795d7e&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
 
         if (msg.content == '.sepuh' || msg.content == '.sungkem'){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156934700825333780/image.png?ex=6516c6e7&is=65157567&hm=12bb5b01e50616f2279e882dcc2f44dbc454adc69003348d3e1b713e6ff966ef&');
@@ -226,7 +232,7 @@ client.on('messageCreate', (msg) => {
     if (msg.content == '.renjon' || msg.content == '.renzon'){
         // const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1155511986029858958/image.png');
         // msg.channel.send( { embeds: [Embed] })
-        msg.channel.send('Maaf stickernya prohibited, biar saya wakilinaja\nRENJON ANJ')
+        msg.channel.send('Maaf stickernya prohibited, biar saya wakilin aja\nRENJON ANJ')
         return;
     }
 
