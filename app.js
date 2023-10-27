@@ -39,6 +39,12 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     
+        if (msg.content == '.lah' || msg.content == '.ngatur'){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1167399233788313650/qwSuqo8.png?ex=654dfc42&is=653b8742&hm=b67a6f19341297ec04e31749cdeca172629e7dd83f079c70187a86ba3a6028e0&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
         if (msg.content == '.babi'){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1142061343474720768/1160227740570615878/image.png?ex=6533e549&is=65217049&hm=6fe34453297b551fc26125481598aa7350920452a9739f800058fa4f3a795d7e&');
         msg.channel.send( { embeds: [Embed] })
