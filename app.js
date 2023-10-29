@@ -17,6 +17,9 @@ const client = new Client({
 // });
 
 client.on('messageCreate', (msg) => {
+
+    let chat = msg.content;
+
     if (msg.author.bot){
         return;
     }
@@ -27,8 +30,8 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
 
-    if (msg.content == '.cmdlist'){
-        msg.channel.send('Command list-nya ini masbree \n `.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
+    if (chat.includes('.cmdlist')){
+        msg.channel.send('Command list-nya ini masbree \n `.muak`\n`.lah / .ngatur`\n`.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
         msg.delete();
         return;
     }
@@ -38,6 +41,18 @@ client.on('messageCreate', (msg) => {
     //     msg.channel.send( { embeds: [Embed] })
     //     return;
     // }
+    
+        if (msg.content == '.xx'){
+        const Embed = new EmbedBuilder().setImage('x');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (msg.content == '.muak'){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1017394620075876372/gw_udah_muak.jpg');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
     
         if (msg.content == '.lah' || msg.content == '.ngatur'){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1167399233788313650/qwSuqo8.png?ex=654dfc42&is=653b8742&hm=b67a6f19341297ec04e31749cdeca172629e7dd83f079c70187a86ba3a6028e0&');
