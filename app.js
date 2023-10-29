@@ -24,141 +24,135 @@ client.on('messageCreate', (msg) => {
         return;
     }
 
-    // if (msg.content == 'wembed'){
+    // if (msg.content == '.cmdlist')){
     //     const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155816582774272020/image.png');
     //     msg.channel.send( { embeds: [Embed] })
     //     return;
     // }
 
-    if (chat.includes('.cmdlist')){
+    if (msg.content == '.cmdlist'){
         msg.channel.send('Command list-nya ini masbree \n `.muak`\n`.lah / .ngatur`\n`.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
         msg.delete();
         return;
     }
 
-    //     if (msg.content == '.xx'){
+    //     if (chat.includes('.xx')){
     //     const Embed = new EmbedBuilder().setImage('x');
     //     msg.channel.send( { embeds: [Embed] })
     //     return;
     // }
     
-        if (msg.content == '.xx'){
-        const Embed = new EmbedBuilder().setImage('x');
-        msg.channel.send( { embeds: [Embed] })
-        return;
-    }
-    
-        if (msg.content == '.muak'){
+        if (chat.includes('.muak')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1017394620075876372/gw_udah_muak.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
     
-        if (msg.content == '.lah' || msg.content == '.ngatur'){
+        if (chat.includes('.lah' || msg.content == '.ngatur')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1167399233788313650/qwSuqo8.png?ex=654dfc42&is=653b8742&hm=b67a6f19341297ec04e31749cdeca172629e7dd83f079c70187a86ba3a6028e0&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
     
-        if (msg.content == '.babi'){
+        if (chat.includes('.babi')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1142061343474720768/1160227740570615878/image.png?ex=6533e549&is=65217049&hm=6fe34453297b551fc26125481598aa7350920452a9739f800058fa4f3a795d7e&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-        if (msg.content == '.sepuh' || msg.content == '.sungkem'){
+        if (chat.includes('.sepuh' || msg.content == '.sungkem')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156934700825333780/image.png?ex=6516c6e7&is=65157567&hm=12bb5b01e50616f2279e882dcc2f44dbc454adc69003348d3e1b713e6ff966ef&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
     
-        if (msg.content == '.gblk' || msg.content == '.goblok'){
+        if (chat.includes('.gblk' || msg.content == '.goblok')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156903654511607858/goblok.gif?ex=6516a9fd&is=6515587d&hm=168e7510ad6ce54fa020673fcf42c9916a2296f69d2e1fb5441653bf3ab19594&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
     
-        if (msg.content == '.tuman'){
+        if (chat.includes('.tuman')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156901508714090536/image.png?ex=6516a7fd&is=6515567d&hm=1fb178820f601ea9429100a6a9c0b9886a3c29ec676c35e5580eb113f1b145c8&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
     
-        if (msg.content == '.sangean'){
+        if (chat.includes('.sangean')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156901007423438968/490052347109eb74f2c7122953e1f31d67a98bf3.png?ex=6516a786&is=65155606&hm=a2841a29bf53c3e7900ec15e40de846e2b3e7835416874ea594d79b6d8c615a7&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
    
-        if (msg.content == '.euy'){
+        if (chat.includes('.euy')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156899842908495942/FIyBrTTVQAAJLnv.png?ex=6516a670&is=651554f0&hm=3db653d66e7e0bfefe2dd14995d55674fb0bd21ac23f0155a105c35f46ab57a9&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-        if (msg.content == '.slow' || msg.content == '.wet'){
+        if (chat.includes('.slow' || msg.content == '.wet')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1066320786404671548/ea.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
 
-        if (msg.content == '.udah' || msg.content == '.bang'){
+        if (chat.includes('.udah' || msg.content == '.bang')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1072751258651344947/ea.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-        if (msg.content == '.darimana' || msg.content == '.duitnya'){
+        if (chat.includes('.darimana' || msg.content == '.duitnya')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/965436154096787496/dari_mana_duitnya.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-        if (msg.content == '.bohong' || msg.content == '.boong'){
+        if (chat.includes('.bohong' || msg.content == '.boong')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/734388021620637716/961120770195591168/20220403_045258.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-        if (msg.content == '.mindset'){
+        if (chat.includes('.mindset')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1085127791760125982/ea.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.ajak'){
+    if (chat.includes('.ajak')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155866106490265750/2Q.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.gaajak'){
+    if (chat.includes('.gaajak')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155866177457885274/main-qimg-6eeb5f1ca2d60b8b266896bdaf268edd-lq.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-        if (msg.content == '.nanya'){
+        if (chat.includes('.nanya')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1078480580301295626/ea.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-        if (msg.content == '.hehe'){
+        if (chat.includes('.hehe')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155831078750261328/image.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-        if (msg.content == '.kntl' || msg.content == '.kontol'){
+        if (chat.includes('.kntl' || msg.content == '.kontol')){
         // const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155829527306579988/image.png');
         // msg.channel.send( { embeds: [Embed] })
         msg.channel.send('Maaf stickernya prohibited')
         return;
     }  
 
-    if (msg.content == '.mw' || msg.content == '.mau' || msg.content == '.akujugamau'){
+    if (chat.includes('.mw' || msg.content == '.mau' || msg.content == '.akujugamau')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1092351228962418748/aku_jg_mw.jpg');
         const Embed1 = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156898224032981042/384243735_6775583322481024_2683809069711358651_n.png?ex=6516a4ee&is=6515536e&hm=8c959cac1f3d6338a3b2e277a83f9e01b9ed1084cfd7144a2665e28596fe3cff&');
         msg.channel.send( { embeds: [Embed1] })
@@ -166,134 +160,134 @@ client.on('messageCreate', (msg) => {
         return;
     }
 
-    if (msg.content == '.admin'){
+    if (chat.includes('.admin')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1107199791563276340/ea.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.bagaimana'){
+    if (chat.includes('.bagaimana')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1107284385650184192/bagaimana_mungkin.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.pagi'){
+    if (chat.includes('.pagi')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155824881229897789/stlnppa.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-        if (msg.content == '.ok'){
+        if (chat.includes('.ok')){
         const Embed = new EmbedBuilder().setImage('https://i.pinimg.com/originals/54/a4/00/54a4008daad4565a9b5db1b94e59c74c.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     } 
 
-    if (msg.content == '.ada' || msg.content == '.adasaja'){
+    if (chat.includes('.ada' || msg.content == '.adasaja')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1064502375160762379/adaadasaja.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.tergantung'){
+    if (chat.includes('.tergantung')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1057358476877250601/ea.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
     
-    if (msg.content == '.ampun'){
+    if (chat.includes('.ampun')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/813066861365166090/jaog.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.bacot' || msg.content == '.bct'){
+    if (chat.includes('.bacot' || msg.content == '.bct')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155816673220247552/image.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-     if (msg.content == '.diam'){
+     if (chat.includes('.diam')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155816582774272020/image.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.nyimak'){
+    if (chat.includes('.nyimak')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156904964627628072/entertainment-michael-jackson.gif?ex=6516ab35&is=651559b5&hm=fd8e82422f58767aa469f02dbc3c3bbee8d1f7209862a1a523e8cb406b80a8dc&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.berak'){
+    if (chat.includes('.berak')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155517553695789169/image.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.lima' || msg.content == '.maulima'){
+    if (chat.includes('.lima' || msg.content == '.maulima')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/969596173608443905/1154753391843622932/FB_IMG_1688108344048.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.wleo'){
+    if (chat.includes('.wleo')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1082588496893583441/ea.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.telat'){
+    if (chat.includes('.telat')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/993358037958017104/ea.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.renjon' || msg.content == '.renzon'){
+    if (chat.includes('.renjon' || msg.content == '.renzon')){
         // const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1155511986029858958/image.png');
         // msg.channel.send( { embeds: [Embed] })
         msg.channel.send('Maaf stickernya prohibited, biar saya wakilin aja\nRENJON ANJ')
         return;
     }
 
-    if (msg.content == '.asik'){
+    if (chat.includes('.asik')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1155512441598378014/image.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.apasi' || msg.content == '.apasih' || msg.content == '.paansi'){
+    if (chat.includes('.apasi' || msg.content == '.apasih' || msg.content == '.paansi')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1155512531406823484/image.png');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.malas'){
+    if (chat.includes('.malas')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1040548380713168926/eaea.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.matilampu'){
+    if (chat.includes('.matilampu')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1142061343474720768/1147709090542395513/image-3.png');
     msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.waduh'){
+    if (chat.includes('.waduh')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156904964162072617/waduh-kumala.gif?ex=6516ab35&is=651559b5&hm=34e10c5db875adfe8e1f48ef023e0868aee9019fdf8e29e8b6dc08d7b2934810&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.lucu'){
+    if (chat.includes('.lucu')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1026148077221974136/ea.jpg');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
 
-    if (msg.content == '.pergi'){
+    if (chat.includes('.pergi')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1064502374829408366/ea.png');
         msg.channel.send( { embeds: [Embed] })
         return;
