@@ -31,7 +31,7 @@ client.on('messageCreate', (msg) => {
     // }
 
     if (msg.content == '.cmdlist'){
-        msg.channel.send('Command list-nya ini masbree \n`.kalem`\n`.ribut`\n`.wibu`\n`.byone / .by1`\n`.gas / .gaskan`\n`.skill / .issue`\n`.tunduk / .suhu`\n`.haha / .ngakak / .wkwk`\n`.makan`\n`.sepi`\n`.yauda / .ywdh / .yaudahiya`\n`.sial`\n`.apacoba`\n`.welcome`\n`.ngeri`\n`.pukul`\n`.hai`\n`.gwmulu`\n`.haram`\n`.ahlu`\n`.gaktau / .ndaktau / .gktw`\n`.maap / .maaf`\n`.gedig`\n`.bokep`\n`.muak`\n`.lah / .ngatur`\n`.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
+        msg.channel.send('Command list-nya ini masbree \n`.mabar`\n`.ml / .mole`\n`.gamain / .gamain?`\n`.main / .main?`\n`.sabar`\n`.kalem`\n`.ribut`\n`.wibu`\n`.byone / .by1`\n`.gas / .gaskan`\n`.skill / .issue`\n`.tunduk / .suhu`\n`.haha / .ngakak / .wkwk`\n`.makan`\n`.sepi`\n`.yauda / .ywdh / .yaudahiya`\n`.sial`\n`.apacoba`\n`.welcome`\n`.ngeri`\n`.pukul`\n`.hai`\n`.gwmulu`\n`.haram`\n`.ahlu`\n`.gaktau / .ndaktau / .gktw`\n`.maap / .maaf`\n`.gedig`\n`.bokep`\n`.muak`\n`.lah / .ngatur`\n`.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
         msg.delete();
         return;
     }
@@ -41,6 +41,36 @@ client.on('messageCreate', (msg) => {
     //     msg.channel.send( { embeds: [Embed] })
     //     return;
     // }
+    
+        if (chat.includes('.p') || chat.includes('.mabar')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1176826496640356473/foflon7agaavcdy-488ece9ab947196203f7301270d550bf.png?ex=65704815&is=655dd315&hm=ecf3772371fbfa8bc2a9ddfcb3dd3a307356df4f58b22de6cbfa56f95ff56bf2&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.ml') || chat.includes('.mole')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1176825905188982846/image.png?ex=65704788&is=655dd288&hm=5296c9bbbf9d3f2b7afff621e17c9351fa0593c9a8464534e2e68607c2981fb2&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.main?') || chat.includes('.main')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1176825254174265395/image.png?ex=657046ec&is=655dd1ec&hm=33f35a987eae7dcf37f3d23c82e6eb7a805a936bfe999e6fa5a65f2321b11f03&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.gamain?') || chat.includes('.gamain')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1176825005607235594/image.png?ex=657046b1&is=655dd1b1&hm=6c0aaea378ba4ad6a86071fbb7180f45e3a2dc7ea0a3047babf36196fe0eb5cb&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.sabar') || chat.includes('tai')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1176822750564855929/image.png?ex=65704498&is=655dcf98&hm=90c893244c28481ccdbccf70bd75293eac31edc28db72fd5d8c4625c51a8aadc&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
     
         if (chat.includes('.gas') || chat.includes('.gaskan')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1174391380999688322/3fa383d49146b15347c7885dc3c52eb4.png?ex=65676c34&is=6554f734&hm=65d1104fdeaa8c13baf004a3450f1afe571c85806f9b4a151bb7d9adc548fdc4&');
