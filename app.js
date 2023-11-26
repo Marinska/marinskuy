@@ -72,7 +72,7 @@ client.on('messageCreate', (msg) => {
         return;
     }
     
-        if (chat.includes('.sabar') || chat.includes('tai')){
+        if (chat.includes('.sabar') || chat.includes('.tai')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1176822750564855929/image.png?ex=65704498&is=655dcf98&hm=90c893244c28481ccdbccf70bd75293eac31edc28db72fd5d8c4625c51a8aadc&');
         msg.channel.send( { embeds: [Embed] })
         return;
