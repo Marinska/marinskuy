@@ -42,11 +42,11 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     
-    //     if (chat.includes('.nye') || chat.includes('.nyenye')){
-    //     const Embed = new EmbedBuilder().setImage('https://tenor.com/view/damunz-pinoy-redge-belat-nyenye-gif-16229767');
-    //     msg.channel.send( { embeds: [Embed] })
-    //     return;
-    // }
+        if (chat.includes('.nye') || chat.includes('.nyenye')){
+        const Embed = new EmbedBuilder().setImage('https://tenor.com/view/damunz-pinoy-redge-belat-nyenye-gif-16229767');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
     
         if (chat.includes('.adios')){
         const Embed = new EmbedBuilder().setImage('https://preview.redd.it/jyfakluns6g51.jpg?width=640&crop=smart&auto=webp&s=d1f3b546bb1d870cda138036ae6f261f073b845e');
