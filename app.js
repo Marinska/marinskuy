@@ -43,7 +43,7 @@ client.on('messageCreate', (msg) => {
     // }
     
         if (chat.includes('.nye') || chat.includes('.nyenye')){
-        const Embed = new EmbedBuilder().setImage('https://tenor.com/view/damunz-pinoy-redge-belat-nyenye-gif-16229767');
+        const Embed = new EmbedBuilder().setImage('https://media.tenor.com/LdlB7csEwwkAAAAC/damunz-pinoy.gif');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
