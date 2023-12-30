@@ -42,6 +42,37 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     
+        if (chat.includes('.caribokep')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1190678081309003877/F1A09fvacAAy3jq.png?ex=65a2ac60&is=65903760&hm=cdffe783c41eb17c2e43c7b372a7aac90197bb4f1313153fdaa163d0125972d2&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+        
+        if (chat.includes('.aaa') || chat.includes('.nooo')){
+        const Embed = new EmbedBuilder().setImage('https://tenor.com/view/disappointed-snapped-sad-gif-22165289');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+        
+
+        if (chat.includes('.nangid') || chat.includes('.nangis') || chat.includes('.sad')){
+        const Embed = new EmbedBuilder().setImage('https://tenor.com/view/man-crying-gif-27679168');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.nosegs')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1190676255255830638/272789290_788831352050272_984064485612735943_n.png?ex=65a2aaac&is=659035ac&hm=0ae2ca2f84b047af3ba73d73e5f72a1cfca0a40cec0ee0b4a0d81671e99c53cf&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.segs')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1190676539902275766/263164453_676350667075878_3753309991797133158_n.png?ex=65a2aaf0&is=659035f0&hm=7e2f72c6f2bbdb7e2a618bb1e698c5251a5e24b5ccc57e88ca571e7676a34a77&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
         if (chat.includes('.nye') || chat.includes('.nyenye')){
         const Embed = new EmbedBuilder().setImage('https://media.tenor.com/LdlB7csEwwkAAAAC/damunz-pinoy.gif');
         msg.channel.send( { embeds: [Embed] })
@@ -338,7 +369,7 @@ client.on('messageCreate', (msg) => {
         return;
     }  
 
-    if (chat.includes('.mw') || chat.includes('.mau') || chat.includes('.akujugamau')){
+    if (chat.includes('.mw') || chat.includes('.akujugamau')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1092351228962418748/aku_jg_mw.jpg');
         const Embed1 = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1156898224032981042/384243735_6775583322481024_2683809069711358651_n.png?ex=6516a4ee&is=6515536e&hm=8c959cac1f3d6338a3b2e277a83f9e01b9ed1084cfd7144a2665e28596fe3cff&');
         msg.channel.send( { embeds: [Embed1] })
