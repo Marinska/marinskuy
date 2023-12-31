@@ -42,6 +42,12 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     
+        if (chat.includes('.sangka')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1190966056886472805/1022ebfdfc109a02b7564d978ad0b076.png?ex=65a3b893&is=65914393&hm=31b0e12beb14327b2fbea890ac1a811fa20e1e694504e4cfff7cf7f400515b6a&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
         if (chat.includes('.manabokep')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1190678081309003877/F1A09fvacAAy3jq.png?ex=65a2ac60&is=65903760&hm=cdffe783c41eb17c2e43c7b372a7aac90197bb4f1313153fdaa163d0125972d2&');
         msg.channel.send( { embeds: [Embed] })
