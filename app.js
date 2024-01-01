@@ -42,6 +42,18 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     
+        if (chat.includes('.istrigw')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1183824808379682980/408041592_6905956246157303_3302326474821717493_n.png?ex=659c32c4&is=6589bdc4&hm=83db7f2b8e1d6c0578630dc61639dd1237132201552b60860fbb9e30d060182e&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.kuma')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/607289364355219457/1191300756884688976/image.png?ex=65a4f049&is=65927b49&hm=7ee2367d6c44725ee125074799b5e5cae85b2d911c69a40b45c1c18420f38385&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
         if (chat.includes('.sangka')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1190966056886472805/1022ebfdfc109a02b7564d978ad0b076.png?ex=65a3b893&is=65914393&hm=31b0e12beb14327b2fbea890ac1a811fa20e1e694504e4cfff7cf7f400515b6a&');
         msg.channel.send( { embeds: [Embed] })
