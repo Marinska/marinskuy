@@ -42,6 +42,12 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     
+        if (chat.includes('.nenen')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/829733282799026197/905446922347765761/received_259481762726523.jpeg?ex=65a7d4a8&is=65955fa8&hm=16e5c1fdedfb37bdd46b05ffef276920c00f4686da98b1ddd1a5e0cf8b9675cd&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
         if (chat.includes('.apa') || chat.includes('.apacoba')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1192408048304672890/cc3238230d5782a557203e71ade68525.png?ex=65a8f788&is=65968288&hm=312903729e33a8e8c6a221d1c589fb51b068608a4e52c8daf04818299186d687&');
         msg.channel.send( { embeds: [Embed] })
