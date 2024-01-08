@@ -42,6 +42,12 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     
+        if (chat.includes('.sebat')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1193959370569040114/Sebats.png?ex=65ae9c50&is=659c2750&hm=290d945950635d6f6c838c6cab9f80962be3912ba0cfb0812bd0628a74f3afb2&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
         if (chat.includes('.ewe')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/734388695049830470/989732963929428018/unknown.png?ex=65a9eba6&is=659776a6&hm=3d667c8ed6dc89bc9788c1c0fa20fdba94d1663bd7e18beedd808da99232b763&');
         msg.channel.send( { embeds: [Embed] })
