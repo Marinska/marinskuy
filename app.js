@@ -355,7 +355,7 @@ client.on('messageCreate', (msg) => {
         return;
     }
     
-        if (chat.includes('.ndaktau') || chat.includes('.gaktau') || chat.includes('.gktw')){
+        if (chat.includes('.ndaktau') || chat.includes('.gaktau') || chat.includes('.gktw') || chat.includes('.yntkts')){
         const Embed = new EmbedBuilder().setImage('https://media.tenor.com/57XAx1F7PWwAAAAd/yntkts-ya-ndak-tau-kok-tanya-saya.gif');
         msg.channel.send( { embeds: [Embed] })
         return;
