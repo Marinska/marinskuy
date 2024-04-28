@@ -42,6 +42,13 @@ client.on('messageCreate', (msg) => {
     //     msg.channel.send( { embeds: [Embed] })
     //     return;
     // }
+    //
+    
+        if (chat.includes('.turu')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1174391462356594688/images.png?ex=662f2787&is=662dd607&hm=568806536cc4c48dc16b3df367d5d0f36dbb1b0879da1e53fd47ec36fb59d80a&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
     
         if (chat.includes('.tatakrama')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1229324974767079424/0bcd026b0e3d6392140834ee186b410f.png?ex=662f4519&is=661cd019&hm=efb191f731bf56f8730f8ed07bebb245d1443789b1e04fcc835fbebd6641937b&');
