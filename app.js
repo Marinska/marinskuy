@@ -46,7 +46,7 @@ client.on('messageCreate', (msg) => {
     
     
         if (chat.includes('.gz') || chat.includes('.grat') || chat.includes('.congrats')){
-        const Embed = new EmbedBuilder().setImage('https://tenor.com/view/ponke-ponkesol-congratulations-congrats-congratulation-gif-7584948739201594065');
+        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/aUMmsQeoctEAAAAC/ponke-ponkesol.gif');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
