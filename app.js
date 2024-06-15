@@ -43,13 +43,13 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     //
-    //
-    //     if (chat.includes('.olun')){
-    //     const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/RJB1_i_eusQAAAAC/bdo-bdo-shai.gif');
-    //     msg.channel.send( { embeds: [Embed] })
-    //     return;
-    // }
-    //
+    
+        if (chat.includes('.olun')){
+        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/RJB1_i_eusQAAAAC/bdo-bdo-shai.gif');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
     
         if (chat.includes('.huh')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1251202644379304048/8h0c8.png?ex=666db8c4&is=666c6744&hm=1eda3f083bb0965904c95915b309990ce112d039777f9d479900ff8c3f2592d4&');
