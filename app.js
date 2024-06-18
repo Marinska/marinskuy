@@ -809,46 +809,46 @@ client.on('messageCreate', (msg) => {
         return;
     }
 
-                if (chat.includes('Glykatzis')  ||
-                chat.includes('Embarassing')  ||
-                chat.includes('Tathoyyur')  ||
-                chat.includes('Acefam')  ||
-                chat.includes('WJA4341')  ||
-                chat.includes('DAML')  ||
-                chat.includes('GODGuys')  ||
-                chat.includes('EverlastingApril')  ||
-                chat.includes('Schytr')  ||
-                chat.includes('Minasato')  ||
-                chat.includes('Rakshasar')  ||
-                chat.includes('RabiZ')  ||
-                chat.includes('BruceWaynee')  ||
-                chat.includes('Blade1')  ||
-                chat.includes('Lose2Win')  ||
-                chat.includes('Jeko')  ||
-                chat.includes('BoyLambot')  ||
-                chat.includes('MxMxM')  ||
-                chat.includes('Shikuretto')  ||
-                chat.includes('ScuSi')  ||
-                chat.includes('Atroposx')  ||
-                chat.includes('AndrewS123')  ||
-                chat.includes('GABUTZ')  ||
-                chat.includes('Kuyatabs')  ||
-                chat.includes('Pyschotic')  ||
-                chat.includes('Husay')  ||
-                chat.includes('Kraizen')  ||
-                chat.includes('Garandoa')  ||
-                chat.includes('NaaLie')  ||
-                chat.includes('HeavenSociety')  ||
-                chat.includes('Saosin')  ||
-                chat.includes('Muklils')  ||
-                chat.includes('Paansi')  ||
-                chat.includes('Scripted')  ||
-                chat.includes('Penshit')  ||
-                chat.includes('Eterlife')  ||
-                chat.includes('Godsyxx')  ||
-                chat.includes('WARFTOLE')  ||
-                chat.includes('XenaCharm')  ||
-                chat.includes('CodyxD') 
+                if (chat.includes('glykatzis')  ||
+                chat.includes('embarassing')  ||
+                chat.includes('tathoyyur')  ||
+                chat.includes('acefam')  ||
+                chat.includes('wja4341')  ||
+                chat.includes('daml')  ||
+                chat.includes('g0dguys')  ||
+                chat.includes('everlastingapril')  ||
+                chat.includes('schytr')  ||
+                chat.includes('minasato')  ||
+                chat.includes('rakshasar')  ||
+                chat.includes('rabiz')  ||
+                chat.includes('brucewaynee')  ||
+                chat.includes('blade1')  ||
+                chat.includes('lose2win')  ||
+                chat.includes('jeko')  ||
+                chat.includes('boylambot')  ||
+                chat.includes('mxmxm')  ||
+                chat.includes('shikuretto')  ||
+                chat.includes('scusi')  ||
+                chat.includes('atroposx')  ||
+                chat.includes('andrews123')  ||
+                chat.includes('gabutz')  ||
+                chat.includes('kuyatabs')  ||
+                chat.includes('pyschotic')  ||
+                chat.includes('husay')  ||
+                chat.includes('kraizen')  ||
+                chat.includes('garandoa')  ||
+                chat.includes('naalie')  ||
+                chat.includes('geavensociety')  ||
+                chat.includes('saosin')  ||
+                chat.includes('muklils')  ||
+                chat.includes('paansi')  ||
+                chat.includes('scripted')  ||
+                chat.includes('penshit')  ||
+                chat.includes('eterlife')  ||
+                chat.includes('godsyxx')  ||
+                chat.includes('warftole')  ||
+                chat.includes('xenacharm')  ||
+                chat.includes('codyxd') 
                 ){
                     if(msg.channelId == "1128615765722026056"){
                     msg.channel.send("BANNED SER");
