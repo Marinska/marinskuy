@@ -44,6 +44,7 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+    
         if (chat.includes('.olun')){
         const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/RJB1_i_eusQAAAAC/bdo-bdo-shai.gif');
         msg.channel.send( { embeds: [Embed] })
@@ -807,6 +808,57 @@ client.on('messageCreate', (msg) => {
         msg.channel.send( { embeds: [Embed] })
         return;
     }
+
+    if(msg.channelId == "1128615765722026056"){
+        if (chat.includes(';')){
+            if (chat.includes('Glykatzis')  ||
+                chat.includes('Embarassing')  ||
+                chat.includes('Tathoyyur')  ||
+                chat.includes('Acefam')  ||
+                chat.includes('WJA4341')  ||
+                chat.includes('DAML')  ||
+                chat.includes('GODGuys')  ||
+                chat.includes('EverlastingApril')  ||
+                chat.includes('Schytr')  ||
+                chat.includes('Minasato')  ||
+                chat.includes('Rakshasar')  ||
+                chat.includes('RabiZ')  ||
+                chat.includes('BruceWaynee')  ||
+                chat.includes('Blade1')  ||
+                chat.includes('Lose2Win')  ||
+                chat.includes('Jeko')  ||
+                chat.includes('BoyLambot')  ||
+                chat.includes('MxMxM')  ||
+                chat.includes('Shikuretto')  ||
+                chat.includes('ScuSi')  ||
+                chat.includes('Atroposx')  ||
+                chat.includes('AndrewS123')  ||
+                chat.includes('GABUTZ')  ||
+                chat.includes('Kuyatabs')  ||
+                chat.includes('Pyschotic')  ||
+                chat.includes('Husay')  ||
+                chat.includes('Kraizen')  ||
+                chat.includes('Garandoa')  ||
+                chat.includes('NaaLie')  ||
+                chat.includes('HeavenSociety')  ||
+                chat.includes('Saosin')  ||
+                chat.includes('Muklils')  ||
+                chat.includes('Paansi')  ||
+                chat.includes('Scripted')  ||
+                chat.includes('Penshit')  ||
+                chat.includes('Eterlife')  ||
+                chat.includes('Godsyxx')  ||
+                chat.includes('WARFTOLE')  ||
+                chat.includes('XenaCharm')  ||
+                chat.includes('CodyxD') 
+                ){
+                    msg.channel.send("BANNED SER");
+                    return;
+                }
+            return;
+        }
+    }
+    
 
 
 });
