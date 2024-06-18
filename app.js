@@ -810,7 +810,6 @@ client.on('messageCreate', (msg) => {
     }
 
     if(msg.channelId == "1128615765722026056"){
-        if (chat.includes(';')){
             if (chat.includes('Glykatzis')  ||
                 chat.includes('Embarassing')  ||
                 chat.includes('Tathoyyur')  ||
@@ -856,7 +855,6 @@ client.on('messageCreate', (msg) => {
                     return;
                 }
             return;
-        }
     }
     
 
