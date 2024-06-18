@@ -809,8 +809,7 @@ client.on('messageCreate', (msg) => {
         return;
     }
 
-    if(msg.channelId == "1128615765722026056"){
-            if (chat.includes('Glykatzis')  ||
+                if (chat.includes('Glykatzis')  ||
                 chat.includes('Embarassing')  ||
                 chat.includes('Tathoyyur')  ||
                 chat.includes('Acefam')  ||
@@ -851,6 +850,7 @@ client.on('messageCreate', (msg) => {
                 chat.includes('XenaCharm')  ||
                 chat.includes('CodyxD') 
                 ){
+                    if(msg.channelId == "1128615765722026056"){
                     msg.channel.send("BANNED SER");
                     return;
                 }
