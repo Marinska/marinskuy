@@ -856,6 +856,19 @@ client.on('messageCreate', (msg) => {
                 }
             return;
     }
+
+    if (chat.includes('kanzakura')){
+        if(msg.channelId == "1128615765722026056"){
+            msg.channel.send("VERY HANDSOME SER");
+            return;
+
+    }}
+    if (chat.includes('esseker')){
+        if(msg.channelId == "1128615765722026056"){
+            msg.channel.send("HE IS BAYOT SER");
+            return;
+
+    }}
     
 
 
