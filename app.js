@@ -869,6 +869,12 @@ client.on('messageCreate', (msg) => {
             return;
 
     }}
+    if (chat.includes('cindyan') || chat.includes('libragurl')){
+        if(msg.channelId == "1128615765722026056"){
+            msg.channel.send("SHE GOT TOO MUCH LUCK SER, MUST BAN!");
+            return;
+
+    }}
     
 
 
