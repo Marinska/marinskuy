@@ -44,6 +44,12 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.essebayot')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1125705353166860360/1253311913774022656/image.png?ex=6675652d&is=667413ad&hm=cedb9803ed3322b5e05c7ec1a7c0b9a803c141d9262c2828d386a0e5006aaace&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
     
         if (chat.includes('.olun')){
         const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/RJB1_i_eusQAAAAC/bdo-bdo-shai.gif');
