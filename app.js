@@ -44,7 +44,7 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
-        if (chat.includes('.speedrun')){
+        if (chat.includes('.speedrun') || chat.includes('.speedrungbr')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1235985807689515109/1267468097586204682/image.png?ex=66a8e526&is=66a793a6&hm=6d81d4e672920e507d5fffb7fd7f4748624af279cea333e04d1071bd6ac0c7ef&');
         msg.channel.send( { embeds: [Embed] })
         return;
