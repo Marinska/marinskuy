@@ -44,6 +44,13 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.speedrun')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1235985807689515109/1267468097586204682/image.png?ex=66a8e526&is=66a793a6&hm=6d81d4e672920e507d5fffb7fd7f4748624af279cea333e04d1071bd6ac0c7ef&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
         if (chat.includes('.karbit')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1232653759436296252/FB_IMG_1713378933611.jpg?ex=667ca385&is=667b5205&hm=02b24ae7f4af05f5737b37ff9cb0474b6bbdb27b1f2765270124d5e8128adbaf&');
         msg.channel.send( { embeds: [Embed] })
