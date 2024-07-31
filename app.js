@@ -31,7 +31,7 @@ client.on('messageCreate', (msg) => {
     // }
 
     if (msg.content == '.cmdlist'){
-        msg.channel.send('Command list-nya ini masbree \n`.karbit`\n`.gay`\n`.huh`\n`.sshh`\n`.muehe / .smirk`\n`/stonk`\n`.wang / .kaya / .rich`\n`.gz / .grat / .congrats`\n`.yikes`\n`.bruh`\n`.turu`\n`.maso`\n`.yangbener`\n`.serius`\n`.salken`\n`.tatakrama`\n`.darimanainfo / . infomana`\n`.ramaikan / .hitamkan`\n`.sulit`\n`.cukup / .cukub`\n`.3jt / .3juta`\n`.tolong`\n`.logika`\n`.haiya`\n`.buka`\n`.istigfar`\n`.ngotak`\n`.buahaha`\n`.marah`\n`.faham`\n`.makasih`\n`.maugimana / .gimanalagi`\n`.yahaha`\n`.gacor`\n`.sebat`\n`.ewe`\n`.nenen`\n`.apa`\n`.lick`\n`.apacoba / .apa / .apacb`\n`.tewas`\n`.nocrot`\n`.crot`\n`.fbi`\n`.istrigw`\n`.kuma`\n`.manabokep`\n`.aaa / .nooo`\n`.nangid / .nangis / .sad`\n`.nosegs`\n`.segs`\n`.nye`\n`.adios`\n`.mabar`\n`.ml / .mole`\n`.gamain / .gamain?`\n`.main / .main?`\n`.sabar`\n`.kalem`\n`.ribut`\n`.wibu`\n`.byone / .by1`\n`.gas / .gaskan`\n`.skill / .issue`\n`.tunduk / .suhu`\n`.haha / .ngakak / .wkwk`\n`.makan`\n`.sepi`\n`.yauda / .ywdh / .yaudahiya`\n`.sial`\n`.apacoba`\n`.welcome`\n`.ngeri`\n`.pukul`\n`.hai`\n`.gwmulu`\n`.haram`\n`.ahlu`\n`.gaktau / .ndaktau / .gktw`\n`.maap / .maaf`\n`.gedig`\n`.bokep`\n`.muak`\n`.lah / .ngatur`\n`.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
+        msg.channel.send('Command list-nya ini masbree \n`.speedrungbr / .speedrun`\n`.whysleep / .sleep`\n`.shrug / .shrugs / .idk`\n`.karbit`\n`.gay`\n`.huh`\n`.sshh`\n`.muehe / .smirk`\n`.stonk`\n`.wang / .kaya / .rich`\n`.gz / .grat / .congrats`\n`.yikes`\n`.bruh`\n`.turu`\n`.maso`\n`.yangbener`\n`.serius`\n`.salken`\n`.tatakrama`\n`.darimanainfo / . infomana`\n`.ramaikan / .hitamkan`\n`.sulit`\n`.cukup / .cukub`\n`.3jt / .3juta`\n`.tolong`\n`.logika`\n`.haiya`\n`.buka`\n`.istigfar`\n`.ngotak`\n`.buahaha`\n`.marah`\n`.faham`\n`.makasih`\n`.maugimana / .gimanalagi`\n`.yahaha`\n`.gacor`\n`.sebat`\n`.ewe`\n`.nenen`\n`.apa`\n`.lick`\n`.apacoba / .apa / .apacb`\n`.tewas`\n`.nocrot`\n`.crot`\n`.fbi`\n`.istrigw`\n`.kuma`\n`.manabokep`\n`.aaa / .nooo`\n`.nangid / .nangis / .sad`\n`.nosegs`\n`.segs`\n`.nye`\n`.adios`\n`.mabar`\n`.ml / .mole`\n`.gamain / .gamain?`\n`.main / .main?`\n`.sabar`\n`.kalem`\n`.ribut`\n`.wibu`\n`.byone / .by1`\n`.gas / .gaskan`\n`.skill / .issue`\n`.tunduk / .suhu`\n`.haha / .ngakak / .wkwk`\n`.makan`\n`.sepi`\n`.yauda / .ywdh / .yaudahiya`\n`.sial`\n`.apacoba`\n`.welcome`\n`.ngeri`\n`.pukul`\n`.hai`\n`.gwmulu`\n`.haram`\n`.ahlu`\n`.gaktau / .ndaktau / .gktw`\n`.maap / .maaf`\n`.gedig`\n`.bokep`\n`.muak`\n`.lah / .ngatur`\n`.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`\n`.apasi / .apasih`');
         msg.delete();
         return;
     }
@@ -43,6 +43,20 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     //
+    
+        if (chat.includes('.shrugs') || chat.includes('.shrug') || chat.includes('.idk')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1268165894983520296/Tom-shrug-HD-meme-6.png?ex=66ab6f06&is=66aa1d86&hm=5e8a9bdda59292113a4b68afc1b9b442429ae45f672047c5252b957182ffd601&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
+        if (chat.includes('.sleep') || chat.includes('.whysleep')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1235985807689515109/1268152501010432041/image.png?ex=66ab628d&is=66aa110d&hm=aaddb94e624cd1bf2201dd51e4a1558eb70089e2bed1d17952a1c305424279c4&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
     
         if (chat.includes('.speedrun') || chat.includes('.speedrungbr')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1235985807689515109/1267468097586204682/image.png?ex=66a8e526&is=66a793a6&hm=6d81d4e672920e507d5fffb7fd7f4748624af279cea333e04d1071bd6ac0c7ef&');
