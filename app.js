@@ -44,6 +44,13 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.fakyu')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1272591658457890908/ks6GzyG3.png?ex=66bb88d6&is=66ba3756&hm=353093bf8ace7d2f4cbb2b1c26fa9bdca626e2c966633fa5d593c02cc31ebc09&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
         if (chat.includes('.murka')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1121614913010409563/sticker-fan_11861203_o.png?ex=66b96749&is=66b815c9&hm=255cce5dc41e15ecf3420dd388cfc8b7a9a182f0c3c4c9a9d4f68493ea10396c&');
         msg.channel.send( { embeds: [Embed] })
