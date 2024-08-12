@@ -44,7 +44,7 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
-        if (chat.includes('.fakyu') || chat.includes('.fakyou') || chat.includes('.faku')){
+        if (chat.includes('fakyu') || chat.includes('fakyou') || chat.includes('faku') || chat.includes('fackyou') || chat.includes('fucku') || chat.includes('fuckyou')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1272591658457890908/ks6GzyG3.png?ex=66bb88d6&is=66ba3756&hm=353093bf8ace7d2f4cbb2b1c26fa9bdca626e2c966633fa5d593c02cc31ebc09&');
         msg.channel.send( { embeds: [Embed] })
         return;
