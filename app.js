@@ -910,7 +910,9 @@ client.on('messageCreate', (msg) => {
                 chat.includes('godsyxx')  ||
                 chat.includes('warftole')  ||
                 chat.includes('xenacharm')  ||
-                chat.includes('codyxd') 
+                chat.includes('sinigangnaadobo') ||
+                chat.includes('aowvn') ||
+                chat.includes('achi')
                 ){
                     if(msg.channelId == "1128615765722026056"){
                     msg.channel.send("BANNED SER");
