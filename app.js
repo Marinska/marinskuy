@@ -86,7 +86,7 @@ client.on('messageCreate', (msg) => {
     }
     
     
-        if (chat.includes('.sleep') || chat.includes('.whysleep')){
+        if (chat.includes('.sleep') || chat.includes('.whysleep') || chat.includes('sleep')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1235985807689515109/1268152501010432041/image.png?ex=66ab628d&is=66aa110d&hm=aaddb94e624cd1bf2201dd51e4a1558eb70089e2bed1d17952a1c305424279c4&');
         msg.channel.send( { embeds: [Embed] })
         return;
