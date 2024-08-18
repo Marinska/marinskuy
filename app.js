@@ -179,7 +179,9 @@ client.on('messageCreate', (msg) => {
     
         if (chat.includes('.gay')){
         const Embed = new EmbedBuilder().setImage('https://marinska.s-ul.eu/cTDSLvxa');
+        const Embed1 = new EmbedBuilder().setImage('https://marinska.s-ul.eu/cTDSLvxa');
         msg.channel.send( { embeds: [Embed] })
+        msg.channel.send( { embeds: [Embed1] })
         return;
     }
     
