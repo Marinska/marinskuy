@@ -44,6 +44,13 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.gws')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1278696207211827312/FspJOI4aIAIGRhU.png?ex=66d1be24&is=66d06ca4&hm=b86139d824bb4b6fe9e8fc658f839ed28319ca01389f5d1cc405c040099f56f8&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
         if (chat.includes('.how')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1277236502702588027/White-Monkey-Meme.png?ex=66cc6eb0&is=66cb1d30&hm=32cdac8d5bc87b82f6a472cca320fe297c789d3c80f56038da093a64d473490b&');
         msg.channel.send( { embeds: [Embed] })
