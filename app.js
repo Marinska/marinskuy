@@ -44,7 +44,7 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
-        if (chat.includes('.otiwi')){
+        if (chat.includes('.otiwi') || chat.includes('.otw') || chat.includes('.utiwi')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1119425469486477402/FB_IMG_1686903054618.jpg?ex=66deebf5&is=66dd9a75&hm=a9a2d139d651e9d3624498f6da273d1993dbd8763fa1eda8f994058dc5b63d1e&');
         msg.channel.send( { embeds: [Embed] })
         return;
