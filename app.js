@@ -135,8 +135,8 @@ client.on('messageCreate', (msg) => {
     }
     
     
-        if (chat.includes('fakyu') || chat.includes('fakyou') || chat.includes('faku') || chat.includes('fackyou') || chat.includes('fucku') || chat.includes('fuckyou')){
-        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1272591658457890908/ks6GzyG3.png?ex=66bb88d6&is=66ba3756&hm=353093bf8ace7d2f4cbb2b1c26fa9bdca626e2c966633fa5d593c02cc31ebc09&');
+        if (chat.includes('fakyu') || chat.includes('fakyou') || chat.includes('faku') || chat.includes('fackyou') || chat.includes('fucku') || chat.includes('fuckyou') || chat.includes('Fakyu')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1283450400451727464/Discord_hrHMt5AqR7.png?ex=66e309d4&is=66e1b854&hm=1274e884a4b74fc1b9a451fb4baef78c748f24cf8fd8b02b741cfb8973157c8d&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
@@ -221,10 +221,10 @@ client.on('messageCreate', (msg) => {
     
         if (chat.includes('.gay')){
         const Embed = new EmbedBuilder().setImage('https://marinska.s-ul.eu/cTDSLvxa');
-        const Embed1 = new EmbedBuilder().setImage('https://marinska.s-ul.eu/XrykI1ZB');
+        // const Embed1 = new EmbedBuilder().setImage('https://marinska.s-ul.eu/XrykI1ZB');
         const Embed2 = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1235985807689515109/1283448555456954480/image.png?ex=66e3081c&is=66e1b69c&hm=d2325a6e3c05e958fe7ed864b57da18b91e755484e695a0bbd3e6c7406621184&');
         msg.channel.send( { embeds: [Embed] })
-        msg.channel.send( { embeds: [Embed1] })
+        // msg.channel.send( { embeds: [Embed1] })
         msg.channel.send( { embeds: [Embed2] })
         return;
     }
