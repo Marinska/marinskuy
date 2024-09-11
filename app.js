@@ -222,8 +222,10 @@ client.on('messageCreate', (msg) => {
         if (chat.includes('.gay')){
         const Embed = new EmbedBuilder().setImage('https://marinska.s-ul.eu/cTDSLvxa');
         const Embed1 = new EmbedBuilder().setImage('https://marinska.s-ul.eu/XrykI1ZB');
+        const Embed2 = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1235985807689515109/1283448555456954480/image.png?ex=66e3081c&is=66e1b69c&hm=d2325a6e3c05e958fe7ed864b57da18b91e755484e695a0bbd3e6c7406621184&');
         msg.channel.send( { embeds: [Embed] })
         msg.channel.send( { embeds: [Embed1] })
+        msg.channel.send( { embeds: [Embed2] })
         return;
     }
     
