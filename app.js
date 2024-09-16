@@ -44,6 +44,13 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.miru')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1235985807689515109/1285230679340351549/pero_pelayer.PNG?ex=66e983d8&is=66e83258&hm=5cc11f1d81f6c9b3c346548f154e53d9365b41b7c14449dce22181b1f7f6d21a&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
         if (chat.includes('.bayot')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1125705353166860360/1283047711066820649/image.png?ex=66e192cc&is=66e0414c&hm=32d129f2ebdad8435b63873ad650a7ca0b46e5acc5b3e7ba7f1724730f180716&');
         msg.channel.send( { embeds: [Embed] })
