@@ -66,7 +66,7 @@ client.on('messageCreate', (msg) => {
     
     
         if (chat.includes('.miru')){
-        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1235985807689515109/1285230679340351549/pero_pelayer.PNG?ex=66e983d8&is=66e83258&hm=5cc11f1d81f6c9b3c346548f154e53d9365b41b7c14449dce22181b1f7f6d21a&');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1285604520940015697/pero_pelayer.png?ex=66eae003&is=66e98e83&hm=5f70ae13861b2e05043168a2b4c56fba4912847fab1c1699926f6bb837a93879&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
