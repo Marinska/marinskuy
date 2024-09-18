@@ -44,6 +44,13 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.hbd') || chat.includes('.happybirthday') || chat.includes('.hbday')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1285921144704204800/1582375025374-1.png?ex=66ec06e4&is=66eab564&hm=16c1ff4edc1aac7548f9e53fb4993d3a6fb6126a54a350ffe72a8e61adeaffb7&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
         if (chat.includes('.wekwek')){
         const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/htJ79Uy3OCEAAAAC/that-is-messed-up.gif');
         msg.channel.send( { embeds: [Embed] })
