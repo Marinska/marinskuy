@@ -44,6 +44,13 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.nh') || chat.includes('.comenh')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1100451210894520437/1286001239590441052/comejoin.jpg?ex=66ec517c&is=66eafffc&hm=979752b4a6ffc1ac5457fcf2fe01cab343dc2d6576502a7a2b01bf5c687740e9&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
         if (chat.includes('.kyuu') || chat.includes('.kyuukekar') || chat.includes('.kyu') || chat.includes('.kyukekar') || chat.includes('.kekar')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1285961539756494991/image.png?ex=66ec2c83&is=66eadb03&hm=0825b7938ca921ff23a7663b9f97a42fb0de758f94b9580e0c894a31f6360ba3&');
         msg.channel.send( { embeds: [Embed] })
