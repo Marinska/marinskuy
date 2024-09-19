@@ -44,8 +44,22 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.gae') || chat.includes('.firstofall')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1216458579398361160/1286279310541324339/Screenshot_20240918_184941_com.png?ex=66ed5475&is=66ec02f5&hm=686796b7da9d996ee19324a19f712ab7b3858e2b57f5603b76236d9de5f28617&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
+        if (chat.includes('.otome')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1216458579398361160/1285994809630134373/2Q.png?ex=66ecf43f&is=66eba2bf&hm=383a022a8d8a18cde9e11d4f4ea6ab27859f9e696b98dc4ac5788ebe7b1bb34e&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
         if (chat.includes('.nh') || chat.includes('.comenh')){
-        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1100451210894520437/1286001239590441052/comejoin.jpg?ex=66ec517c&is=66eafffc&hm=979752b4a6ffc1ac5457fcf2fe01cab343dc2d6576502a7a2b01bf5c687740e9&');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1286279475562283082/comejoin2.jpg?ex=66ed549c&is=66ec031c&hm=336a0e065af037002a4a5873e3fea6f8100c4285fdeca949c19552264a39cfce&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
