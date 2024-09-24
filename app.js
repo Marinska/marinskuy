@@ -44,6 +44,13 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.horni') || chat.includes('.horny')){
+        const Embed = new EmbedBuilder().setImage('https://marinska.s-ul.eu/K6BafKC3');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
         if (chat.includes('.cum')){
         const Embed = new EmbedBuilder().setImage('https://marinska.s-ul.eu/dYm2UUyB');
         msg.channel.send( { embeds: [Embed] })
