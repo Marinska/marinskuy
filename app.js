@@ -73,7 +73,7 @@ client.on('messageCreate', (msg) => {
     
     
         if (chat.includes('.party')){
-        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1286726358428549323/1288142657767346176/bbc.jpg?ex=66f41bd6&is=66f2ca56&hm=5abb0898ba3f89e3ba6808aa581a76f5e8ed87e5683f3f3fcfdb6313f385d16e&');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1292794414804111410/bbc.jpg?ex=6705081f&is=6703b69f&hm=6c76dc20c06c0ac20caabd4b856c5c42fe320271dfb465e306e31f949d1bce97&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
