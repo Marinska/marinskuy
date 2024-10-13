@@ -145,7 +145,7 @@ client.on('messageCreate', (msg) => {
     
     
         if (chat.includes('.hbd') || chat.includes('.happybirthday') || chat.includes('.hbday')){
-        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1295047931023331420/GPeGSYgbQAAtAb9.png?ex=670d3adf&is=670be95f&hm=af6aa7cd1dcdcd982818fb9781d791339d0395acce4868fa91ad34b90996898c&');
+        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/FuVsrQcD5VAAAAAd/birthday-fun.gif');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
