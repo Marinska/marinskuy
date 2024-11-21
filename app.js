@@ -46,6 +46,13 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.yamete')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1309122711997386804/image.png?ex=67406f08&is=673f1d88&hm=c0e08f2059c6cd9f9f93ee534277936cafe2876bbf6cacd95df8297c38c93d07&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
         if (chat.includes('.diamkau') || chat.includes('.kaudiam')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/869583172025851914/1290352461315440834/diam.jpg?ex=66fc25e0&is=66fad460&hm=eebc3b6f8e58331965e9e656fe0a330ff2b9ffec5beb4bdc785ec8b37e310e69&');
         msg.channel.send( { embeds: [Embed] })
