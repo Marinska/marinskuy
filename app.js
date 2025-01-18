@@ -1018,8 +1018,9 @@ client.on('messageCreate', (msg) => {
 
         if (chat.includes('.kntl') || chat.includes('.kontol')){
         // const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155829527306579988/image.png');
+        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/l_OqJhv5Y1kAAAAd/kontol.gif');
         // msg.channel.send( { embeds: [Embed] })
-        msg.channel.send('Maaf stickernya prohibited')
+        // msg.channel.send('Maaf stickernya prohibited')
         return;
     }  
 
