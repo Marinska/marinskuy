@@ -46,6 +46,13 @@ client.on('messageCreate', (msg) => {
     // }
     //
     
+        if (chat.includes('.tahan')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1330017321451913270/1330052638246572083/1f9f9efcca029cdbc5a3c3d58027b21b697603643f2b49b0c443e14e610b3ab8.jpg?ex=678c938c&is=678b420c&hm=7f2bba7654c419126c716bc3479ee5c35d189d1fee4e7869cb4dca9d16a2753b&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+    
         if (chat.includes('.ale') || chat.includes('.masale')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1321414442860412972/1329877633655246868/9h1fwh.jpg?ex=678bf08f&is=678a9f0f&hm=4ffa7120234e21418d610a0bb7d92a6bbc39e6f88f4e8d053c33ffa3e41c0156&');
         msg.channel.send( { embeds: [Embed] })
