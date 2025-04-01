@@ -45,6 +45,12 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     
+        if (chat.includes('.urwelcome') || chat.includes('.urwelcom') || chat.includes('.urwelcom') || chat.includes('.yourwelcome') || chat.includes('.yourwelcom') || chat.includes('.samasama') || chat.includes('.sama2')){
+        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/-wNnIOiGK6AAAAAC/happy-birthday-ashleigh.gif');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
         if (chat.includes('.matane')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1337625903907340330/Ey7_xARVEAsUsfI.png?ex=67a820b3&is=67a6cf33&hm=64fc10e60e60850310a3d7bb361daa79213abf909afe7852f1408fc6d040d610&');
         msg.channel.send( { embeds: [Embed] })
@@ -563,7 +569,7 @@ client.on('messageCreate', (msg) => {
     
     
         if (chat.includes('.gz') || chat.includes('.grat') || chat.includes('.congrats')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/aUMmsQeoctEAAAAC/ponke-ponkesol.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1356602219583242481/angry-congrats-happy-for-you.png?ex=67ed29c5&is=67ebd845&hm=f1c2843cd9ec89e9b938d9432b43b84b74b3545b80ae31c878fac0adca90e721&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
