@@ -46,7 +46,7 @@ client.on('messageCreate', (msg) => {
     // }
     
         if (chat.includes('.urwelcome') || chat.includes('.urwelcom') || chat.includes('.yourwelcom') || chat.includes('.samasama') || chat.includes('.sama2')){
-        const Embed = new EmbedBuilder().setImage('https://tenor.com/view/happy-birthday-ashleigh-smiling-dog-happy-gif-18087413919487765408');
+        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/-wNnIOiGK6AAAAAd/happy-birthday-ashleigh.gif');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
