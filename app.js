@@ -46,7 +46,7 @@ client.on('messageCreate', (msg) => {
     // }
     
         if (chat.includes('.urwelcome') || chat.includes('.urwelcom') || chat.includes('.yourwelcom') || chat.includes('.samasama') || chat.includes('.sama2')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/-wNnIOiGK6AAAAAd/happy-birthday-ashleigh.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1356610669247467631/happy-birthday-ashleigh.gif?ex=67ed31a4&is=67ebe024&hm=6457ac46264dc90cd3a49060ad025cf5c98731ec4dd810b083487de7a43bf89c&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
