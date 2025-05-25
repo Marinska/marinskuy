@@ -326,21 +326,21 @@ client.on('messageCreate', (msg) => {
     
     
         if (chat.includes('.hbd') || chat.includes('.happybirthday') || chat.includes('.hbday')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/FuVsrQcD5VAAAAAd/birthday-fun.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1376101985828212848/hbd.gif?ex=68341a58&is=6832c8d8&hm=38c7b9386dcaa12ec043b5a18ce8dec49c7fb2faa2dd5117bb71c21edb16d220&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
     
     
         if (chat.includes('.wekwek')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/htJ79Uy3OCEAAAAC/that-is-messed-up.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1376102021010296873/wekwek.gif?ex=68341a60&is=6832c8e0&hm=b3722ae68fd0bce4cff87e2c6e4db443c9039043c7f956df1f6ba7037efdbf31&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
     
     
         if (chat.includes('.tolol')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/GEmyC0EofpYAAAAC/deddy-corbuzier.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1376102013133131926/tolol.gif?ex=68341a5e&is=6832c8de&hm=545402d6aed98206ff9a47f0d4c4febc183b0f605cd9eb6ffc86a88c58b9eca7&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
@@ -522,7 +522,7 @@ client.on('messageCreate', (msg) => {
     
     
         if (chat.includes('.olun')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/RJB1_i_eusQAAAAC/bdo-bdo-shai.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1376101990530289715/oluns.gif?ex=68341a59&is=6832c8d9&hm=5abe1ecb2a9c17401e5cec56ccae5533766c327dcb4a1f9d5086b52d274ae311&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
@@ -561,7 +561,7 @@ client.on('messageCreate', (msg) => {
     
     
         if (chat.includes('.wang') || chat.includes('.kaya') || chat.includes('.rich')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/cbekJnhykHoAAAAC/spongebob-squarepants-mr-krabs.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1376102017142882324/wang.gif?ex=68341a5f&is=6832c8df&hm=2d4e84e6469891a03665970b582e29c7d173811e652516568b9c2e695f55e36a&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
@@ -596,7 +596,7 @@ client.on('messageCreate', (msg) => {
     
     
         if (chat.includes('.serius') || chat.includes('.seriusly')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/TKq6Fn71XPgAAAAd/seriously-seriously-cat.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1376102006065729586/serius.gif?ex=68341a5c&is=6832c8dc&hm=9da30c86408b06ee7acd2a0481efa7be0831d339a5c9c9e8462651443b4a5b0f&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
@@ -702,7 +702,7 @@ client.on('messageCreate', (msg) => {
     }
     
         if (chat.includes('.buahaha')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/hqyMIWXTdlMAAAAd/roti-jala-mak-limah-biadab.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1376101956904554547/buahaha.gif?ex=68341a51&is=6832c8d1&hm=2f0f5ce80b3132c5d69bdae3aa07348c9d07acfa3e8d30bdc3fe380677016039&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
@@ -792,7 +792,7 @@ client.on('messageCreate', (msg) => {
     }
     
         if (chat.includes('.fbi')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/goq48dvYSFYAAAAC/fbi-calling.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1376101965657935982/fbi.gif?ex=68341a53&is=6832c8d3&hm=04cd510ff8ca6b8d396d0aad65c48add143e12b29bec5e2da3ebfc7832828cfc&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
@@ -822,14 +822,14 @@ client.on('messageCreate', (msg) => {
     }
         
         if (chat.includes('.aaa') || chat.includes('.nooo')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/Rao5Y7NKenYAAAAC/disappointed-snapped.gif');
+        const Embed = new EmbedBuilder().setImage('https://media.tenor.com/m/Rao5Y7NKenYAAAAC/disappointed-snapped.gif');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
         
 
         if (chat.includes('.nangid') || chat.includes('.nangis') || chat.includes('.sad')){
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/9GfSFmUfRnMAAAAd/man-crying.gif');
+        const Embed = new EmbedBuilder().setImage('https://media.tenor.com/m/9GfSFmUfRnMAAAAd/man-crying.gif');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
@@ -1134,14 +1134,19 @@ client.on('messageCreate', (msg) => {
         msg.channel.send( { embeds: [Embed] })
         return;
     }
-
         if (chat.includes('.kntl') || chat.includes('.kontol')){
-        // const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155829527306579988/image.png');
-        const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/l_OqJhv5Y1kAAAAd/kontol.gif');
-        // msg.channel.send( { embeds: [Embed] })
-        // msg.channel.send('Maaf stickernya prohibited')
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1376101983882313778/kntl.gif?ex=68341a57&is=6832c8d7&hm=3c533f3984c7feeab53fe01910e47690765e047bb629539dd9b83671f33dd616&');
+        msg.channel.send( { embeds: [Embed] })
         return;
-    }  
+    }
+
+    //     if (chat.includes('.kntl') || chat.includes('.kontol')){
+    //     // const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1155829527306579988/image.png');
+    //     const Embed = new EmbedBuilder().setImage('https://media1.tenor.com/m/l_OqJhv5Y1kAAAAd/kontol.gif');
+    //     // msg.channel.send( { embeds: [Embed] })
+    //     // msg.channel.send('Maaf stickernya prohibited')
+    //     return;
+    // }  
 
     if (chat.includes('.mw') || chat.includes('.akujugamau')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1092351228962418748/aku_jg_mw.jpg');
