@@ -829,7 +829,7 @@ client.on('messageCreate', (msg) => {
         
 
         if (chat.includes('.nangid') || chat.includes('.nangis') || chat.includes('.sad')){
-        const Embed = new EmbedBuilder().setImage('https://media.tenor.com/m/9GfSFmUfRnMAAAAd/man-crying.gif');
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1376102000214933514/sad.gif?ex=68341a5b&is=6832c8db&hm=7675b22c9b741e58cd7df6ae01bce8ea0bf784acaba79b758538f6655847a020&');
         msg.channel.send( { embeds: [Embed] })
         return;
     }
