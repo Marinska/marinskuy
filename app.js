@@ -45,6 +45,12 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     
+        if (chat.includes('.gak') || chat.includes('.gk')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/812956551320043523/1261288024671522836/FB_IMG_1720183590038.jpg?ex=6874ee82&is=68739d02&hm=22d154f16b9f754225a6cd23e7a49c8de3d80309442a635f3c1627f6b46cbb16&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
         if (chat.includes('.berteman')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1380517594452201532/El-JWJNVcAAqsdk.png?ex=68647773&is=686325f3&hm=f865ba0becb24ed5fc06e07355690335d2f99986900e624e4f0eb4c232fa1c81&');
         msg.channel.send( { embeds: [Embed] })
