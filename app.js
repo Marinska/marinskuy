@@ -26,7 +26,7 @@ client.on('messageCreate', (msg) => {
 
 
     if (msg.content == '.cmdlist'){
-        msg.channel.send('Command list-nya ini masbree \n`.crazy`\n`.gabolegitu / .gabolehgitu`\n`.muach / .muah`\n`.sekiya`\n`.tuli`\n`.1mdulu`\n`.jasuke`\n`.nereka`\n`.hijau`\n`.kelas`\n`.xixi`\n`.wtf`\n`.tawatapiluka / .tawatapisakit / .lolbuthurt`\n`.hore / .yay`\n`.letsgo / .lesgo`\n`.eee`\n`.juice / .jus`\n`.gwej / .gweh`\n`.pikir`\n`.stres`\n`.punyagw`\n`.berteman`\n`.teman`\n`.gesek`\n`.item`\n`.urwelcome / .yourwelcome / .sama2 / .samasama`\n`.culture`\n`.normal`\n`.cuaks / .chuaks / .cuak`\n`.slebew`\n`.sesat`\n`.matane`\n`.iri`\n`.paten`\n`.takut`\n`.bising / .tido`\n`.mantjing / .mancing`\n`.pilih`\n`.nguwawor / .ngawur`\n`.cemen`\n`.gigit / .titid / .sepong`\n`.rugidong`\n`.haaa`\n`.bingung`\n`.tahan`\n`.ale / .masale`\n`.keren`\n`.tidakmenarik`\n`.menarik`\n`.upik`\n`.yamete`\n`.diamkau / .kaudiam`\n`.woi / .omae`\n`.soro / .jikan / .saatnya`\n`.ping`\n`.party`\n`.horni / .horny`\n`.cum`\n`.hbd / .happybirthday`\n`.kyu / .kyurakuu / .kyukekar / .kekar`\n`.nh`\n`.gae`\n`.otome`\n`.pikachu`\n`.ck`\n`.rasis / .racist`\n`.silit / .utek`')
+        msg.channel.send('Command list-nya ini masbree \n`.izin`\n`.sekali / .duakali`\n`.lethimcook`\n`.hellnah`\n`.yapping`\n`.letmethink`\n`.crazy`\n`.gabolegitu / .gabolehgitu`\n`.muach / .muah / .mwa`\n`.sekiya`\n`.tuli`\n`.1mdulu`\n`.jasuke`\n`.nereka`\n`.hijau`\n`.kelas`\n`.xixi`\n`.wtf`\n`.tawatapiluka / .tawatapisakit / .lolbuthurt`\n`.hore / .yay`\n`.letsgo / .lesgo`\n`.eee`\n`.juice / .jus`\n`.gwej / .gweh`\n`.pikir`\n`.stres`\n`.punyagw`\n`.berteman`\n`.teman`\n`.gesek`\n`.item`\n`.urwelcome / .yourwelcome / .sama2 / .samasama`\n`.culture`\n`.normal`\n`.cuaks / .chuaks / .cuak`\n`.slebew`\n`.sesat`\n`.matane`\n`.iri`\n`.paten`\n`.takut`\n`.bising / .tido`\n`.mantjing / .mancing`\n`.pilih`\n`.nguwawor / .ngawur`\n`.cemen`\n`.gigit / .titid / .sepong`\n`.rugidong`\n`.haaa`\n`.bingung`\n`.tahan`\n`.ale / .masale`\n`.keren`\n`.tidakmenarik`\n`.menarik`\n`.upik`\n`.yamete`\n`.diamkau / .kaudiam`\n`.woi / .omae`\n`.soro / .jikan / .saatnya`\n`.ping`\n`.party`\n`.horni / .horny`\n`.cum`\n`.hbd / .happybirthday`\n`.kyu / .kyurakuu / .kyukekar / .kekar`\n`.nh`\n`.gae`\n`.otome`\n`.pikachu`\n`.ck`\n`.rasis / .racist`\n`.silit / .utek`')
         msg.channel.send('\n`.wekwek`\n`.tolol`\n`.how`\n`.bayot`\n`.otiwi / .otw / .utiwi`\n`.gws`\n`.cih / .tch / .nandayo / .koitsu`\n`.how`\n`.plsajak / .pleaseajak`\n`.alamak`\n`.tanggapi / .tanggapin / .tanggepi`\n`.dahlah`\n`.serlok / .sharelok / .shareloc`\n`.biarapa / .biarin / .biar`\n`.gakdulu / .gadulu`\n`.sopan`\n`.fakyu / .faku / .fakyou`\n`.thamngan`\n`.santai`\n`.awas`\n`.murka`\n`.speedrungbr / .speedrun`\n`.whysleep / .sleep`\n`.shrug / .shrugs / .idk`\n`.karbit`\n`.gay`\n`.huh`\n`.sshh`\n`.muehe / .smirk`\n`.stonk`\n`.wang / .kaya / .rich`\n`.gz / .grat / .congrats`\n`.yikes`\n`.bruh`\n`.turu`\n`.maso`\n`.yangbener`\n`.serius`\n`.salken`\n`.tatakrama`\n`.darimanainfo / . infomana`\n`.ramaikan / .hitamkan`\n`.sulit`\n`.cukup / .cukub`\n`.3jt / .3juta`\n`.tolong`\n`.logika`\n`.haiya`\n`.buka`\n`.istigfar`\n`.ngotak`\n`.buahaha`\n`.marah`\n`.faham`\n`.makasih`\n`.maugimana / .gimanalagi`\n`.yahaha`\n`.gacor`\n`.sebat`\n`.ewe`\n`.nenen`\n`.lick`\n`.apacoba / .apa / .apcb`\n`.tewas`\n`.nocrot`\n`.crot`\n`.fbi`\n`.istrigw`\n`.kuma`\n`.manabokep`\n`.aaa / .nooo`\n`.nangid / .nangis / .sad`\n`.nosegs`\n`.segs`\n`.nye`\n`.adios`\n`.mabar`\n`.ml / .mole`\n`.gamain / .gamain?`\n`.main / .main?`\n`.sabar`\n`.kalem`\n`.ribut`\n`.wibu`\n`.byone / .by1`\n`.gas / .gaskan`\n`.skill / .issue`\n`.tunduk / .suhu`\n`.haha / .ngakak / .wkwk`\n`.makan`\n`.sepi`\n`.yauda / .ywdh / .yaudahiya`\n`.sial`\n`.welcome`\n`.ngeri`\n`.pukul`\n`.hai`\n`.gwmulu`\n`.haram`\n`.ahlu`\n`.gaktau / .ndaktau / .gktw`\n`.maap / .maaf`\n`.gedig`\n`.bokep`\n`.muak`\n`.lah / .ngatur`\n`.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`');
         msg.delete();
         return;
@@ -45,7 +45,44 @@ client.on('messageCreate', (msg) => {
     //     return;
     // }
     
-        if (chat.includes('.muach') || chat.includes('.muah')){
+    
+        if (chat.includes('.letmethink')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1424442973109882961/1466057063628017828/71084b621f00ca80626e473045ee2db0.jpg?ex=697b5b89&is=697a0a09&hm=98fc4ed41b1695ea97834bbbb8f4554a232117c71ad23a53e8d857b16525498e&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.yapping')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1424442973109882961/1466057062529368306/fb19e28b6d846398d773dec882b4f3d5.jpg?ex=697b5b89&is=697a0a09&hm=c32c976a6462079532d98c5e5aecf4cc3ff9143968c8ed9904d3f944d749d1b4&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.hellnah')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1424442973109882961/1466057062856392880/dc70750f14800942154963a801ce093c.jpg?ex=697b5b89&is=697a0a09&hm=df116c84404af39c7098fff2efb3ce0693667b673d112a733df6cb60252431e2&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.lethimcook')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1424442973109882961/1466057063179358288/022c6c55de4858c870ea61104f6976cb.jpg?ex=697b5b89&is=697a0a09&hm=e60d1d5ba18fede06fe41fd188949ab84f427d70a01ea28fcfcd20e5e14616a5&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.sekali') || chat.includes('.duakali')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1424442973109882961/1466057061992501533/b00e2b4d1565937c7a3ad2313f215c2e.jpg?ex=697b5b89&is=697a0a09&hm=befab14da10287907166cf6b26d121e9c0c78083111feb48a6411f300fd17d1b&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.izin')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1466065157808586844/images.png?ex=697b6313&is=697a1193&hm=ea8f1ae5126ae89351a12f5beac88ec294ef94f5ac756ccc10a477094da0480c&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
+    
+        if (chat.includes('.muach') || chat.includes('.muah') || chat.includes('.mwa')){
         const Embed = new EmbedBuilder().setImage('https://media.discordapp.net/attachments/1418666148618309758/1466055539904483368/Screenshot_20260128_195848_WhatsApp.jpg?ex=697b5a1e&is=697a089e&hm=6fac461a0c608c30efebd00a84828a9db1b917b96dd0329ee9b2ac317af2907e&=&format=webp&width=586&height=594');
         msg.channel.send( { embeds: [Embed] })
         return;
