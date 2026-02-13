@@ -24,133 +24,14 @@ client.on('messageCreate', (msg) => {
     if (msg.author.bot){
         return;
     }
-    if (!msg.mentions.users.has(ownerId)) return;
-    const userId = msg.author.id;
-    const now = Date.now();
-    const lastMention = mentionCooldown.get(userId);
-    const replies = [
-    "Dia lagi offline nih 😄",
-    "Kayaknya lagi sibuk, nanti aku sampaikan ya.",
-    "Marin lagi nggak ada, titip pesan aja.",
-    "Sebentar ya, nanti aku panggilin.",
-    "Hmm kayaknya lagi AFK tuh.",
-    "Lagi nggak di tempat, nanti disampaikan pesannya.",
-    "Marin lagi pergi sebentar.",
-    "Sepertinya lagi istirahat dulu.",
-    "Sedang tidak tersedia saat ini.",
-    "Marin lagi di luar, nanti aku bilangin.",
-    "Dia lagi away dulu.",
-    "Kayaknya lagi sibuk di dunia nyata 😄",
-    "Marin lagi off dulu ya.",
-    "Lagi nggak online, coba lagi nanti.",
-    "Dia lagi rehat sebentar.",
-    "Marin lagi nggak pegang Discord.",
-    "Sedang offline, nanti aku sampaikan.",
-    "Marin lagi nggak standby.",
-    "Coba nanti lagi ya, lagi offline.",
-    "Dia lagi AFK dulu nih.",
-    "Marin lagi sibuk, tunggu bentar ya.",
-    "Kayaknya lagi keluar sebentar.",
-    "Lagi nggak aktif sekarang.",
-    "Marin lagi istirahat dulu.",
-    "Sepertinya lagi nggak buka Discord.",
-    "Dia lagi nggak di depan komputer.",
-    "Marin lagi break dulu.",
-    "Mungkin lagi di jalan.",
-    "Lagi ada urusan dulu kayaknya.",
-    "Marin lagi off sementara.",
-    "Coba nanti lagi ya.",
-    "Dia lagi nggak online sekarang.",
-    "Marin lagi fokus di hal lain dulu.",
-    "Sepertinya lagi tidur 😴",
-    "Marin lagi nggak bisa balas sekarang.",
-    "Dia lagi nggak available.",
-    "Marin lagi away sebentar.",
-    "Kayaknya lagi di luar rumah.",
-    "Marin lagi sibuk dulu.",
-    "Dia lagi nggak respon sekarang.",
-    "Marin lagi istirahat, nanti aku bilangin.",
-    "Kayaknya lagi nggak pegang HP.",
-    "Marin lagi nggak aktif sekarang.",
-    "Lagi offline dulu ya.",
-    "Marin lagi nggak bisa diganggu dulu.",
-    "Dia lagi nggak di tempat.",
-    "Marin lagi istirahat sebentar.",
-    "Coba chat lagi nanti ya.",
-    "Marin lagi off dulu."
-];
-    const spamReplies = [
-    "Santai dulu dong, jangan spam mention 😄",
-    "Tunggu bentar ya, jangan dipanggil terus.",
-    "Sabar ya, nanti juga dibalas.",
-    "Jangan spam tag ya, aku sudah jawab kok.",
-    "Mention sekali cukup kok 😄",
-    "Kasih waktu dulu ya, jangan spam.",
-    "Santai aja, nanti juga muncul.",
-    "Pelan-pelan ya manggilnya 😄",
-    "Marin belum muncul juga walau dipanggil terus.",
-    "Jangan spam, aku bukan alarm 😅",
-    "Sabar ya, nggak perlu di-tag terus.",
-    "Dipanggil sekali juga dengar kok 😄",
-    "Jangan panik, nanti juga datang.",
-    "Spam mention tidak mempercepat kedatangan Marin 😆",
-    "Tunggu sebentar ya, jangan buru-buru.",
-    "Aku sudah jawab, sabar sedikit ya.",
-    "Nggak perlu spam tag kok.",
-    "Marin belum online juga meski dipanggil berkali-kali 😄",
-    "Santuy, jangan dikejar terus.",
-    "Pelan-pelan ya, jangan spam mention.",
-    "Kasih waktu sedikit dong 😄",
-    "Aku juga butuh napas kalau dipanggil terus 😅",
-    "Spam tag tidak membuatnya muncul lebih cepat.",
-    "Sudah dipanggil kok, tunggu saja ya.",
-    "Jangan spam, nanti servernya capek 😆",
-    "Tenang, nanti juga muncul.",
-    "Spam mention mode off dulu ya 😄",
-    "Cukup sekali ya manggilnya.",
-    "Marin belum bisa teleport walau dipanggil terus 😅",
-    "Santai ya, jangan spam tag.",
-    "Panggil sekali saja cukup kok.",
-    "Sabar, jangan di-spam terus.",
-    "Dipanggil terus juga belum tentu muncul 😄",
-    "Jangan panik, nanti dibalas.",
-    "Tunggu sebentar, jangan spam mention ya.",
-    "Pelan-pelan, jangan dikejar terus 😄",
-    "Marin belum online walau di-tag berkali-kali.",
-    "Spam tag tidak mempercepat waktu 😆",
-    "Sabar dulu ya.",
-    "Sudah aku sampaikan, tinggal tunggu saja.",
-    "Nanti juga dibalas kok, jangan spam.",
-    "Santai, jangan buru-buru.",
-    "Tag terus nanti aku jadi pusing 😵",
-    "Jangan spam mention ya, kasihan botnya 😄",
-    "Tenang, semuanya butuh waktu.",
-    "Pelan-pelan ya, jangan spam lagi.",
-    "Sabar ya, Marin belum muncul.",
-    "Dipanggil terus juga belum tentu datang 😄",
-    "Santuy, jangan spam mention terus.",
-    "Kasih jeda sedikit dong 😄"
-];
-
-
-
-       // jika spam (<10 detik)
-    if (lastMention && now - lastMention < 10000) {
-        const spamReply =
-            spamReplies[Math.floor(Math.random() * spamReplies.length)];
-
-        msg.reply(spamReply);
+    if (!msg.mentions.users.has(ownerId)){
+        command()
         return;
-    }
+    }else{ ownertag()
+        return;
+    };
 
-    // simpan waktu mention
-    mentionCooldown.set(userId, now);
-
-    const randomReply =
-        replies[Math.floor(Math.random() * replies.length)];
-
-    msg.reply(randomReply);
-
+    function command(){
     if (msg.content == '.cmdlist'){
         msg.channel.send('Command list-nya ini masbree \n`.izin`\n`.sekali / .duakali`\n`.lethimcook`\n`.hellnah`\n`.yapping`\n`.letmethink`\n`.crazy`\n`.gabolegitu / .gabolehgitu`\n`.muach / .muah / .mwa`\n`.sekiya`\n`.tuli`\n`.1mdulu`\n`.jasuke`\n`.nereka`\n`.hijau`\n`.kelas`\n`.xixi`\n`.wtf`\n`.tawatapiluka / .tawatapisakit / .lolbuthurt`\n`.hore / .yay`\n`.letsgo / .lesgo`\n`.eee`\n`.juice / .jus`\n`.gwej / .gweh`\n`.pikir`\n`.stres`\n`.punyagw`\n`.berteman`\n`.teman`\n`.gesek`\n`.item`\n`.urwelcome / .yourwelcome / .sama2 / .samasama`\n`.culture`\n`.normal`\n`.cuaks / .chuaks / .cuak`\n`.slebew`\n`.sesat`\n`.matane`\n`.iri`\n`.paten`\n`.takut`\n`.bising / .tido`\n`.mantjing / .mancing`\n`.pilih`\n`.nguwawor / .ngawur`\n`.cemen`\n`.gigit / .titid / .sepong`\n`.rugidong`\n`.haaa`\n`.bingung`\n`.tahan`\n`.ale / .masale`\n`.keren`\n`.tidakmenarik`\n`.menarik`\n`.upik`\n`.yamete`\n`.diamkau / .kaudiam`\n`.woi / .omae`\n`.soro / .jikan / .saatnya`\n`.ping`\n`.party`\n`.horni / .horny`\n`.cum`\n`.hbd / .happybirthday`\n`.kyu / .kyurakuu / .kyukekar / .kekar`\n`.nh`\n`.gae`\n`.otome`\n`.pikachu`\n`.ck`\n`.rasis / .racist`\n`.silit / .utek`')
         msg.channel.send('\n`.wekwek`\n`.tolol`\n`.how`\n`.bayot`\n`.otiwi / .otw / .utiwi`\n`.gws`\n`.cih / .tch / .nandayo / .koitsu`\n`.how`\n`.plsajak / .pleaseajak`\n`.alamak`\n`.tanggapi / .tanggapin / .tanggepi`\n`.dahlah`\n`.serlok / .sharelok / .shareloc`\n`.biarapa / .biarin / .biar`\n`.gakdulu / .gadulu`\n`.sopan`\n`.fakyu / .faku / .fakyou`\n`.thamngan`\n`.santai`\n`.awas`\n`.murka`\n`.speedrungbr / .speedrun`\n`.whysleep / .sleep`\n`.shrug / .shrugs / .idk`\n`.karbit`\n`.gay`\n`.huh`\n`.sshh`\n`.muehe / .smirk`\n`.stonk`\n`.wang / .kaya / .rich`\n`.gz / .grat / .congrats`\n`.yikes`\n`.bruh`\n`.turu`\n`.maso`\n`.yangbener`\n`.serius`\n`.salken`\n`.tatakrama`\n`.darimanainfo / . infomana`\n`.ramaikan / .hitamkan`\n`.sulit`\n`.cukup / .cukub`\n`.3jt / .3juta`\n`.tolong`\n`.logika`\n`.haiya`\n`.buka`\n`.istigfar`\n`.ngotak`\n`.buahaha`\n`.marah`\n`.faham`\n`.makasih`\n`.maugimana / .gimanalagi`\n`.yahaha`\n`.gacor`\n`.sebat`\n`.ewe`\n`.nenen`\n`.lick`\n`.apacoba / .apa / .apcb`\n`.tewas`\n`.nocrot`\n`.crot`\n`.fbi`\n`.istrigw`\n`.kuma`\n`.manabokep`\n`.aaa / .nooo`\n`.nangid / .nangis / .sad`\n`.nosegs`\n`.segs`\n`.nye`\n`.adios`\n`.mabar`\n`.ml / .mole`\n`.gamain / .gamain?`\n`.main / .main?`\n`.sabar`\n`.kalem`\n`.ribut`\n`.wibu`\n`.byone / .by1`\n`.gas / .gaskan`\n`.skill / .issue`\n`.tunduk / .suhu`\n`.haha / .ngakak / .wkwk`\n`.makan`\n`.sepi`\n`.yauda / .ywdh / .yaudahiya`\n`.sial`\n`.welcome`\n`.ngeri`\n`.pukul`\n`.hai`\n`.gwmulu`\n`.haram`\n`.ahlu`\n`.gaktau / .ndaktau / .gktw`\n`.maap / .maaf`\n`.gedig`\n`.bokep`\n`.muak`\n`.lah / .ngatur`\n`.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`');
@@ -1657,7 +1538,7 @@ client.on('messageCreate', (msg) => {
                     return;
                 }
             return;
-    }
+    }}
 
     if (chat.includes('kanzakura')){
         if(msg.channelId == "1128615765722026056"){
@@ -1678,6 +1559,133 @@ client.on('messageCreate', (msg) => {
 
     }}
     
+    function ownertag(){
+    const userId = msg.author.id;
+    const now = Date.now();
+    const lastMention = mentionCooldown.get(userId);
+    const replies = [
+    "Dia lagi offline nih 😄",
+    "Kayaknya lagi sibuk, nanti aku sampaikan ya.",
+    "Marin lagi nggak ada, titip pesan aja.",
+    "Sebentar ya, nanti aku panggilin.",
+    "Hmm kayaknya lagi AFK tuh.",
+    "Lagi nggak di tempat, nanti disampaikan pesannya.",
+    "Marin lagi pergi sebentar.",
+    "Sepertinya lagi istirahat dulu.",
+    "Sedang tidak tersedia saat ini.",
+    "Marin lagi di luar, nanti aku bilangin.",
+    "Dia lagi away dulu.",
+    "Kayaknya lagi sibuk di dunia nyata 😄",
+    "Marin lagi off dulu ya.",
+    "Lagi nggak online, coba lagi nanti.",
+    "Dia lagi rehat sebentar.",
+    "Marin lagi nggak pegang Discord.",
+    "Sedang offline, nanti aku sampaikan.",
+    "Marin lagi nggak standby.",
+    "Coba nanti lagi ya, lagi offline.",
+    "Dia lagi AFK dulu nih.",
+    "Marin lagi sibuk, tunggu bentar ya.",
+    "Kayaknya lagi keluar sebentar.",
+    "Lagi nggak aktif sekarang.",
+    "Marin lagi istirahat dulu.",
+    "Sepertinya lagi nggak buka Discord.",
+    "Dia lagi nggak di depan komputer.",
+    "Marin lagi break dulu.",
+    "Mungkin lagi di jalan.",
+    "Lagi ada urusan dulu kayaknya.",
+    "Marin lagi off sementara.",
+    "Coba nanti lagi ya.",
+    "Dia lagi nggak online sekarang.",
+    "Marin lagi fokus di hal lain dulu.",
+    "Sepertinya lagi tidur 😴",
+    "Marin lagi nggak bisa balas sekarang.",
+    "Dia lagi nggak available.",
+    "Marin lagi away sebentar.",
+    "Kayaknya lagi di luar rumah.",
+    "Marin lagi sibuk dulu.",
+    "Dia lagi nggak respon sekarang.",
+    "Marin lagi istirahat, nanti aku bilangin.",
+    "Kayaknya lagi nggak pegang HP.",
+    "Marin lagi nggak aktif sekarang.",
+    "Lagi offline dulu ya.",
+    "Marin lagi nggak bisa diganggu dulu.",
+    "Dia lagi nggak di tempat.",
+    "Marin lagi istirahat sebentar.",
+    "Coba chat lagi nanti ya.",
+    "Marin lagi off dulu."
+];
+    const spamReplies = [
+    "Santai dulu dong, jangan spam mention 😄",
+    "Tunggu bentar ya, jangan dipanggil terus.",
+    "Sabar ya, nanti juga dibalas.",
+    "Jangan spam tag ya, aku sudah jawab kok.",
+    "Mention sekali cukup kok 😄",
+    "Kasih waktu dulu ya, jangan spam.",
+    "Santai aja, nanti juga muncul.",
+    "Pelan-pelan ya manggilnya 😄",
+    "Marin belum muncul juga walau dipanggil terus.",
+    "Jangan spam, aku bukan alarm 😅",
+    "Sabar ya, nggak perlu di-tag terus.",
+    "Dipanggil sekali juga dengar kok 😄",
+    "Jangan panik, nanti juga datang.",
+    "Spam mention tidak mempercepat kedatangan Marin 😆",
+    "Tunggu sebentar ya, jangan buru-buru.",
+    "Aku sudah jawab, sabar sedikit ya.",
+    "Nggak perlu spam tag kok.",
+    "Marin belum online juga meski dipanggil berkali-kali 😄",
+    "Santuy, jangan dikejar terus.",
+    "Pelan-pelan ya, jangan spam mention.",
+    "Kasih waktu sedikit dong 😄",
+    "Aku juga butuh napas kalau dipanggil terus 😅",
+    "Spam tag tidak membuatnya muncul lebih cepat.",
+    "Sudah dipanggil kok, tunggu saja ya.",
+    "Jangan spam, nanti servernya capek 😆",
+    "Tenang, nanti juga muncul.",
+    "Spam mention mode off dulu ya 😄",
+    "Cukup sekali ya manggilnya.",
+    "Marin belum bisa teleport walau dipanggil terus 😅",
+    "Santai ya, jangan spam tag.",
+    "Panggil sekali saja cukup kok.",
+    "Sabar, jangan di-spam terus.",
+    "Dipanggil terus juga belum tentu muncul 😄",
+    "Jangan panik, nanti dibalas.",
+    "Tunggu sebentar, jangan spam mention ya.",
+    "Pelan-pelan, jangan dikejar terus 😄",
+    "Marin belum online walau di-tag berkali-kali.",
+    "Spam tag tidak mempercepat waktu 😆",
+    "Sabar dulu ya.",
+    "Sudah aku sampaikan, tinggal tunggu saja.",
+    "Nanti juga dibalas kok, jangan spam.",
+    "Santai, jangan buru-buru.",
+    "Tag terus nanti aku jadi pusing 😵",
+    "Jangan spam mention ya, kasihan botnya 😄",
+    "Tenang, semuanya butuh waktu.",
+    "Pelan-pelan ya, jangan spam lagi.",
+    "Sabar ya, Marin belum muncul.",
+    "Dipanggil terus juga belum tentu datang 😄",
+    "Santuy, jangan spam mention terus.",
+    "Kasih jeda sedikit dong 😄"
+];
+
+
+
+       // jika spam (<10 detik)
+    if (lastMention && now - lastMention < 10000) {
+        const spamReply =
+            spamReplies[Math.floor(Math.random() * spamReplies.length)];
+
+        msg.reply(spamReply);
+        return;
+    }
+
+    // simpan waktu mention
+    mentionCooldown.set(userId, now);
+
+    const randomReply =
+        replies[Math.floor(Math.random() * replies.length)];
+
+    msg.reply(randomReply);
+    }
 
 
 });
