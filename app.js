@@ -56,7 +56,7 @@ client.on('messageCreate', (msg) => {
         if (chat.includes('.everyone')){
         const Embed = new EmbedBuilder().setImage('x');
         msg.channel.send( { embeds: [Embed] })
-        msg.channel.send('@everyone')
+        msg.channel.send("@everyone")
         return;
     }
     
