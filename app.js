@@ -53,14 +53,6 @@ client.on('messageCreate', (msg) => {
     // }
     
     
-        if (msg.content == '.everyone'){
-        const Embed = new EmbedBuilder().setImage('x');
-        msg.channel.send( { embeds: [Embed] })
-        msg.channel.send("@everyone")
-        return;
-    }
-    
-    
         if (chat.includes('.gila')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1418666148618309758/1479141637828378845/Screenshot_20260305_223350_TikTok.jpg?ex=69aaf57f&is=69a9a3ff&hm=d6bd1585e66f7e9a6d647d70cae475ac6fe9e377ad9475028ba9491de3b812bf&');
         msg.channel.send( { embeds: [Embed] })
