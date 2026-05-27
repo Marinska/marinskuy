@@ -33,7 +33,7 @@ client.on('messageCreate', (msg) => {
 
     function command(){
     if (msg.content == '.cmdlist'){
-        msg.channel.send('Command list-nya ini masbree \n`.baka`\n`.izin`\n`.sekali / .duakali`\n`.lethimcook`\n`.hellnah`\n`.yapping`\n`.letmethink`\n`.crazy`\n`.gabolegitu / .gabolehgitu`\n`.muach / .muah / .mwa`\n`.sekiya`\n`.tuli`\n`.1mdulu`\n`.jasuke`\n`.nereka`\n`.hijau`\n`.kelas`\n`.xixi`\n`.wtf`\n`.tawatapiluka / .tawatapisakit / .lolbuthurt`\n`.hore / .yay`\n`.letsgo / .lesgo`\n`.eee`\n`.juice / .jus`\n`.gwej / .gweh`\n`.pikir`\n`.stres`\n`.punyagw`\n`.berteman`\n`.teman`\n`.gesek`\n`.item`\n`.urwelcome / .yourwelcome / .sama2 / .samasama`\n`.culture`\n`.normal`\n`.cuaks / .chuaks / .cuak`\n`.slebew`\n`.sesat`\n`.matane`\n`.iri`\n`.paten`\n`.takut`\n`.bising / .tido`\n`.mantjing / .mancing`\n`.pilih`\n`.nguwawor / .ngawur`\n`.cemen`\n`.gigit / .titid / .sepong`\n`.rugidong`\n`.haaa`\n`.bingung`\n`.tahan`\n`.ale / .masale`\n`.keren`\n`.tidakmenarik`\n`.menarik`\n`.upik`\n`.yamete`\n`.diamkau / .kaudiam`\n`.woi / .omae`\n`.soro / .jikan / .saatnya`\n`.ping`\n`.party`\n`.horni / .horny`\n`.cum`\n`.hbd / .happybirthday`\n`.kyu / .kyurakuu / .kyukekar / .kekar`\n`.nh`\n`.gae`\n`.otome`\n`.pikachu`\n`.ck`\n`.rasis / .racist`\n`.silit / .utek`')
+        msg.channel.send('Command list-nya ini masbree \n`.gila`\n`.baka`\n`.izin`\n`.sekali / .duakali`\n`.lethimcook`\n`.hellnah`\n`.yapping`\n`.letmethink`\n`.crazy`\n`.gabolegitu / .gabolehgitu`\n`.muach / .muah / .mwa`\n`.sekiya`\n`.tuli`\n`.1mdulu`\n`.jasuke`\n`.nereka`\n`.hijau`\n`.kelas`\n`.xixi`\n`.wtf`\n`.tawatapiluka / .tawatapisakit / .lolbuthurt`\n`.hore / .yay`\n`.letsgo / .lesgo`\n`.eee`\n`.juice / .jus`\n`.gwej / .gweh`\n`.pikir`\n`.stres`\n`.punyagw`\n`.berteman`\n`.teman`\n`.gesek`\n`.item`\n`.urwelcome / .yourwelcome / .sama2 / .samasama`\n`.culture`\n`.normal`\n`.cuaks / .chuaks / .cuak`\n`.slebew`\n`.sesat`\n`.matane`\n`.iri`\n`.paten`\n`.takut`\n`.bising / .tido`\n`.mantjing / .mancing`\n`.pilih`\n`.nguwawor / .ngawur`\n`.cemen`\n`.gigit / .titid / .sepong`\n`.rugidong`\n`.haaa`\n`.bingung`\n`.tahan`\n`.ale / .masale`\n`.keren`\n`.tidakmenarik`\n`.menarik`\n`.upik`\n`.yamete`\n`.diamkau / .kaudiam`\n`.woi / .omae`\n`.soro / .jikan / .saatnya`\n`.ping`\n`.party`\n`.horni / .horny`\n`.cum`\n`.hbd / .happybirthday`\n`.kyu / .kyurakuu / .kyukekar / .kekar`\n`.nh`\n`.gae`\n`.otome`\n`.pikachu`\n`.ck`\n`.rasis / .racist`\n`.silit / .utek`')
         msg.channel.send('\n`.wekwek`\n`.tolol`\n`.how`\n`.bayot`\n`.otiwi / .otw / .utiwi`\n`.gws`\n`.cih / .tch / .nandayo / .koitsu`\n`.how`\n`.plsajak / .pleaseajak`\n`.alamak`\n`.tanggapi / .tanggapin / .tanggepi`\n`.dahlah`\n`.serlok / .sharelok / .shareloc`\n`.biarapa / .biarin / .biar`\n`.gakdulu / .gadulu`\n`.sopan`\n`.fakyu / .faku / .fakyou`\n`.thamngan`\n`.santai`\n`.awas`\n`.murka`\n`.speedrungbr / .speedrun`\n`.whysleep / .sleep`\n`.shrug / .shrugs / .idk`\n`.karbit`\n`.gay`\n`.huh`\n`.sshh`\n`.muehe / .smirk`\n`.stonk`\n`.wang / .kaya / .rich`\n`.gz / .grat / .congrats`\n`.yikes`\n`.bruh`\n`.turu`\n`.maso`\n`.yangbener`\n`.serius`\n`.salken`\n`.tatakrama`\n`.darimanainfo / . infomana`\n`.ramaikan / .hitamkan`\n`.sulit`\n`.cukup / .cukub`\n`.3jt / .3juta`\n`.tolong`\n`.logika`\n`.haiya`\n`.buka`\n`.istigfar`\n`.ngotak`\n`.buahaha`\n`.marah`\n`.faham`\n`.makasih`\n`.maugimana / .gimanalagi`\n`.yahaha`\n`.gacor`\n`.sebat`\n`.ewe`\n`.nenen`\n`.lick`\n`.apacoba / .apa / .apcb`\n`.tewas`\n`.nocrot`\n`.crot`\n`.fbi`\n`.istrigw`\n`.kuma`\n`.manabokep`\n`.aaa / .nooo`\n`.nangid / .nangis / .sad`\n`.nosegs`\n`.segs`\n`.nye`\n`.adios`\n`.mabar`\n`.ml / .mole`\n`.gamain / .gamain?`\n`.main / .main?`\n`.sabar`\n`.kalem`\n`.ribut`\n`.wibu`\n`.byone / .by1`\n`.gas / .gaskan`\n`.skill / .issue`\n`.tunduk / .suhu`\n`.haha / .ngakak / .wkwk`\n`.makan`\n`.sepi`\n`.yauda / .ywdh / .yaudahiya`\n`.sial`\n`.welcome`\n`.ngeri`\n`.pukul`\n`.hai`\n`.gwmulu`\n`.haram`\n`.ahlu`\n`.gaktau / .ndaktau / .gktw`\n`.maap / .maaf`\n`.gedig`\n`.bokep`\n`.muak`\n`.lah / .ngatur`\n`.babi`\n`.sepuh / .sungkem`\n`.gblk`\n`.tuman`\n`.sangean`\n`.euy`\n`.slow / .wet`\n`.udah / .bang`\n`.darimana / .duitnya`\n`.bohong / .boong`\n`.mindset`\n`.gaajak`\n`.ajak`\n`.nanya`\n`.hehe`\n`.kntl / .kontol`\n`.mw / .mau / .akujugamau`\n`.admin`\n`.bagaimana`\n`.pagi`\n`.ok`\n`.ada`\n`.tergantung`\n`.ampun `\n`.asik`\n`.renjon / .renzon`\n`.telat`\n`.wleo`\n`.maulima`\n`.berak`\n`.nyimak`\n`.diam`\n`.bacot / .bct`\n`.pergi`\n`.lucu`\n`.waduh`\n`.matilampu`\n`.malas`');
         msg.delete();
         return;
@@ -51,6 +51,21 @@ client.on('messageCreate', (msg) => {
     //     msg.channel.send( { embeds: [Embed] })
     //     return;
     // }
+    
+    
+        if (chat.includes('.everyone')){
+        const Embed = new EmbedBuilder().setImage('x');
+        msg.channel.send( { embeds: [Embed] })
+        msg.channel.send('@everyone')
+        return;
+    }
+    
+    
+        if (chat.includes('.gila')){
+        const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/1418666148618309758/1479141637828378845/Screenshot_20260305_223350_TikTok.jpg?ex=69aaf57f&is=69a9a3ff&hm=d6bd1585e66f7e9a6d647d70cae475ac6fe9e377ad9475028ba9491de3b812bf&');
+        msg.channel.send( { embeds: [Embed] })
+        return;
+    }
     
         if (chat.includes('.baka')){
         const Embed = new EmbedBuilder().setImage('https://cdn.discordapp.com/attachments/723550821832458281/1472635054340440240/image.png?ex=699349c5&is=6991f845&hm=ec54be16df94dc5bc4617772dd7c22f7454bffe0996b0a356a60cadae6180ab9&');
@@ -1546,24 +1561,24 @@ client.on('messageCreate', (msg) => {
             return;
     }}
 
-    if (chat.includes('kanzakura')){
-        if(msg.channelId == "1128615765722026056"){
-            msg.channel.send("VERY HANDSOME SER");
-            return;
+    // if (chat.includes('kanzakura')){
+    //     if(msg.channelId == "1128615765722026056"){
+    //         msg.channel.send("VERY HANDSOME SER");
+    //         return;
 
-    }}
-    if (chat.includes('esseker')){
-        if(msg.channelId == "1128615765722026056"){
-            msg.channel.send("HE IS BAYOT SER");
-            return;
+    // }}
+    // if (chat.includes('esseker')){
+    //     if(msg.channelId == "1128615765722026056"){
+    //         msg.channel.send("HE IS BAYOT SER");
+    //         return;
 
-    }}
-    if (chat.includes('cindyan') || chat.includes('libragurl')){
-        if(msg.channelId == "1128615765722026056"){
-            msg.channel.send("SHE GOT TOO MUCH LUCK SER, MUST BAN!");
-            return;
+    // }}
+    // if (chat.includes('cindyan') || chat.includes('libragurl')){
+    //     if(msg.channelId == "1128615765722026056"){
+    //         msg.channel.send("SHE GOT TOO MUCH LUCK SER, MUST BAN!");
+    //         return;
 
-    }}
+    // }}
     
     function ownertag(){
     const userId = msg.author.id;
